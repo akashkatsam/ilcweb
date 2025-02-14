@@ -81,7 +81,7 @@ export default function Header() {
                                 </li>
 
                                 <li><Link to="/about" onClick={closeMenu}>
-                                About ILC
+                                About 
                                 </Link>
                                     
                                 </li>
@@ -162,7 +162,7 @@ export default function Header() {
 
     <li>
       <Link to="/about" onClick={closeMenu}>
-        About ILC
+        About 
       </Link>
     </li>
 
