@@ -427,11 +427,12 @@ width: 100%;
   background-color: #ffffff1d;
   height: 1px;
 }
-.aboutright h4{    color: #fff;
+.aboutright h4{    
+  color: #fff;
   font-family: 'Bebas Neue';
-  font-size: 60px;
+  font-size: 74px;
   margin-left: 20px;
-  line-height: 60px;
+  line-height: 74px;
   margin-top: 20px;
 }
 .smalltext{
@@ -758,12 +759,12 @@ width: 100%;
   width: 100%;
 }
 .aboutright h4 {
-  color: #fff;
-  font-family: 'Bebas Neue';
-  font-size: 35px;
-  margin-left: 20px;
-  line-height: 40px;
-  margin-top: 20px;
+color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 74px;
+    margin-left: 20px;
+    line-height: 74px;
+    margin-top: 20px;
 }
 .aboutright{
   margin-top: 20px;
