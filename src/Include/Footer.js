@@ -101,9 +101,13 @@ export default function Footer() {
                         <div className='implinks'>
                             <ul>
 
-                                <li>Team </li>
-                                <li>Teams</li>
-                                <li>Gallery</li>
+                                <li>
+                                    
+                                    <Link to="/team">Team
+                                    </Link> </li>
+                                <li><Link to="/about">About
+                                </Link></li>
+                                <li><Link to="/gallery">Gallery</Link></li>
                                 </ul>
                             
                         </div>

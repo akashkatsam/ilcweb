@@ -18,8 +18,7 @@ export default function Partner() {
     <div className="row d-flex justify-content-center mx-auto">
   <div className="col-md-3 col-4">
     <div className="partentitle text-center">
-      <h3>broadcasting PARTNER
-      </h3>
+     
       <img src={sonylogo} className="img-fluid" />
     </div>
   </div>
