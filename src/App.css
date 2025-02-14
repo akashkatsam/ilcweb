@@ -656,6 +656,13 @@ padding: 20px 70px 30px 70px;
     display: block!important;
     width: 100%;
   }
+  .match button {
+font-size: 10px!important;
+  }
+  .footerfixture p{
+    font-size:10px!important;
+  }
+
   header .container-fluid{
 padding: 0px;
   }
@@ -1200,7 +1207,7 @@ header .container-fluid{
     width: 85px;
   }
   .newarticles, #video {
-    padding: 25px 10px 25px 15px;
+    padding: 25px 10px 20px 15px;
   }
   .image-container {
     height: 220px;

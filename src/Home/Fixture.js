@@ -69,7 +69,7 @@ Match Centre    </button>
             <div className='leftfixture'>
                     <img src={logo2} className='img-fluid' />
                     <div className='score'>
-                        <h5>192/7</h5>
+                        <h5>XXX</h5>
                     </div>
                 </div>
             </div>
@@ -80,10 +80,10 @@ Match Centre    </button>
         <div className='footerfixture'>
             <div className='row'>
                 <div className='col-md-7 col-7'>
-                    <p>Time: 07:00 PM - 09:30 PM</p>
+                    <p>Time: XX:00 PM - XX:00 PM</p>
                 </div>
                 <div className='col-md-5 col-5'>
-                    <p>March 18, 2025 - Sun</p>
+                    <p>March XX, 2025 </p>
                 </div>
             </div>
         </div>

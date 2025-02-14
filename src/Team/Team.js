@@ -2,6 +2,11 @@ import React from 'react'
 import team1 from './1.png'
 import team2 from './2.jpg'
 import team3 from './3.jpg'
+import team4 from './4.jpg'
+import team5 from './5.jpg'
+import team7 from './7.jpg'
+
+
 export default function Team() {
   return (
    <>
@@ -38,6 +43,12 @@ export default function Team() {
             <img src={team2} className='img-fluid' />
         </div>
     </div>
+    <div className='col-md-3 col-12'>
+        <div className='teamimg'>
+            <img src={team5} className='img-fluid' />
+        </div>
+    </div>
+
 
 
 
@@ -46,7 +57,22 @@ export default function Team() {
             <img src={team3} className='img-fluid' />
         </div>
     </div>
-</div>
+
+
+    
+    <div className='col-md-3 col-12'>
+        <div className='teamimg'>
+            <img src={team4} className='img-fluid' />
+        </div>
+    </div>
+
+   
+
+    <div className='col-md-3 col-12'>
+        <div className='teamimg'>
+            <img src={team7} className='img-fluid' />
+        </div>
+    </div></div>
     </section>
    </>
   )
