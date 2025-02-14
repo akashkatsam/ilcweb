@@ -77,7 +77,10 @@ export default function News() {
                             </div>
                             <div className='news-caption'>
                                 <p>Feb 07, 2025 | ANI</p>
+                                <Link target='_blank' to="https://www.aninews.in/news/sports/cricket/intercontinental-legends-championship-trophy-unveiled-in-dubai20250208232112/">
                                 <h5>Intercontinental Legends Championship Trophy unveiled in Dubai</h5>
+
+                                </Link>
                             </div>
                         </div>
 

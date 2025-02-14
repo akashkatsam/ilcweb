@@ -101,7 +101,7 @@ export default function Footer() {
                         <div className='implinks'>
                             <ul>
 
-                                <li>Matches </li>
+                                <li>Team </li>
                                 <li>Teams</li>
                                 <li>Gallery</li>
                                 </ul>
@@ -119,38 +119,6 @@ export default function Footer() {
 
 
 
-<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        
-<video width="100%" controls>
-  <source src="https://katsamsoft.com/video/3.mp4" type="video/mp4"/>
-  <source src="movie.ogg" type="video/ogg"/>
-  Your browser does not support the video tag.
-</video>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        
-<video width="100%" controls>
-  <source src="https://katsamsoft.com/video/2.mp4" type="video/mp4"/>
-  <source src="movie.ogg" type="video/ogg"/>
-  Your browser does not support the video tag.
-</video>
-      </div>
-    </div>
-  </div>
-</div>
         </>
     )
 }

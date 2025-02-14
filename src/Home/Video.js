@@ -35,7 +35,7 @@ export default function Video() {
 <>
 
         <section id='video'>
-            <div class="title-team"><h4>Matches Video</h4></div>
+            <div class="title-team"><h4>ILC TV</h4></div>
             
             <OwlCarousel {...options} className="owl-theme">
 

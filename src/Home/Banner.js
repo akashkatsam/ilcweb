@@ -3,6 +3,8 @@ import banener from './ILC website banner ed1.jpg';
 import tag from './bannerocerlay .png'
 import Fixture from './Fixture';
 import bannermob from './bannermob.jpg'
+import { Link } from 'react-router-dom';
+
 export default function Banner() {
     return (
 
@@ -19,7 +21,10 @@ export default function Banner() {
       <img src={banener} class="d-block w-100 bannerwidth desktop" alt="..."/>
       <img src={bannermob} className='img-fluid mobile' />
       <div class="carousel-caption d-md-block">
+      <Link target='_blank' to="https://www.aninews.in/news/sports/cricket/intercontinental-legends-championship-trophy-unveiled-in-dubai20250208232112/">
+
         <h4>Intercontinental Legends Championship Trophy unveiled in Dubai</h4>
+        </Link>
         <button className='readmore'>
         Continue Reading
         </button>

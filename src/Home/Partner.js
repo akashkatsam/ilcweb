@@ -6,7 +6,7 @@ import mp from './MP.jpg'
 import attica from './attica.jpg'
 import newlogo from './100psoorts.jpg'
 import fancode from './fancode.jpg'
-import ps from './ps.png'
+import ps from './pgnew.png'
 export default function Partner() {
   return (
     <section id='bg-white'>
@@ -18,7 +18,7 @@ export default function Partner() {
     <div className="row d-flex justify-content-center mx-auto">
   <div className="col-md-3 col-4">
     <div className="partentitle text-center">
-      <h3>OFFICIAL PARTNER
+      <h3>broadcasting PARTNER
       </h3>
       <img src={sonylogo} className="img-fluid" />
     </div>
@@ -40,13 +40,8 @@ export default function Partner() {
               <h5>ASSOCIATE PARTNER
               </h5>
             </div>
-            <div className='col-md-2 col-4'>
-              <div className='partentitle'>
-                <h3>Organised By</h3>
-                <img src={mp} className='img-fluid' />
-              </div>
-            </div>
 
+            
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
                 <h3>Managed By</h3>
@@ -55,17 +50,15 @@ export default function Partner() {
             </div>
 
 
+
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
-                <h3>official partner</h3>
-                <img src={ps} className='img-fluid' />
+                <h3>Organized By</h3>
+                <img src={mp} className='img-fluid' />
               </div>
             </div>
 
-
-
-           
-
+            
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
                 <h3> partner</h3>
@@ -73,6 +66,21 @@ export default function Partner() {
               </div>
             </div>
 
+
+
+            <div className='col-md-2 col-4'>
+              <div className='partentitle'>
+                <h3> partner</h3>
+                <img src={ps} className='img-fluid' />
+              </div>
+            </div>
+
+
+
+
+           
+
+           
 
 
             <div className='col-md-2 col-4'>
