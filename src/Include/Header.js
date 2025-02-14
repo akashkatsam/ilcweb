@@ -167,7 +167,7 @@ export default function Header() {
     </li>
 
     <li>
-      <Link to="/teams" onClick={closeMenu}>
+      <Link to="/team" onClick={closeMenu}>
         Team
       </Link>
     </li>
