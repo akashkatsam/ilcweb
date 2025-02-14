@@ -53,7 +53,7 @@ export default function Fixture() {
                 <div className='leftfixture'>
                     <img src={logo1} className='img-fluid' />
                     <div className='score'>
-                        <h5>192/7</h5>
+                        <h5>XX</h5>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ Match Centre    </button>
             <div className='leftfixture'>
                     <img src={logo2} className='img-fluid' />
                     <div className='score'>
-                        <h5>XXX</h5>
+                        <h5>XX</h5>
                     </div>
                 </div>
             </div>

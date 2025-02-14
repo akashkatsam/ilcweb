@@ -24,7 +24,7 @@ export default function News() {
         smartSpeed: 1000,
         responsive: {
             0: {
-              items: 1.2 // Show 1 item on small screens
+              items: 1.1 // Show 1 item on small screens
             },
             600: {
               items: 2 // Show 2 items on medium screens

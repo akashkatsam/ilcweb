@@ -14,7 +14,7 @@ export default function Video() {
         margin: 20,
         nav: false,
         dots: false,
-        autoplay: true,
+        autoplay:false,
         autoplayTimeout: 5000,
         items: 2.9,
         smartSpeed: 1000,

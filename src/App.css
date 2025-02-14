@@ -1207,7 +1207,7 @@ header .container-fluid{
     width: 85px;
   }
   .newarticles, #video {
-    padding: 25px 10px 20px 15px;
+    padding: 25px 0px 20px 15px;
   }
   .image-container {
     height: 220px;
