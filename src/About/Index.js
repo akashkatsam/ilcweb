@@ -19,7 +19,7 @@ import founder from './founderimage.png'
 import glow from './glow.png'
 import abtract from './aboutpartner.png'
 import left from './leftaboutimg.png'
-import videobox from './videobox.png'
+import videobox from './ILC - Introductory Video - Thumbnail (1).jpg'
 import FounderSlider from "./FounderCard";
 
 export default function Index() {
@@ -200,29 +200,29 @@ const options = {
           <h4>Our Teams</h4>
         </div>
         <div className='row'>
-          <div className='col-md-2 col-6'>
+          <div className='col-md-2 col-4'>
             <img src={logo1} className='img-fluid' />
           </div>
-          <div className='col-md-2 col-6'>
+          <div className='col-md-2 col-4'>
             <img src={logo2} className='img-fluid' />
           </div>
-          <div className='col-md-2 col-6'>
+          <div className='col-md-2 col-4'>
             <img src={logo3} className='img-fluid' />
           </div>
-          <div className='col-md-2 col-6'>
+          <div className='col-md-2 col-4'>
             <img src={logo4} className='img-fluid' />
           </div>
-          <div className='col-md-2 col-6'>
+          <div className='col-md-2 col-4'>
             <img src={logo5} className='img-fluid' />
           </div>
-          <div className='col-md-2 col-6'>
+          <div className='col-md-2 col-4'>
             <img src={logo6} className='img-fluid' />
           </div>
         </div>
       </section>
 
 
-      <FounderSlider/>
+      {/* <FounderSlider/> */}
 
       {/* <section id='foundermessage'>
         <div className='message'>

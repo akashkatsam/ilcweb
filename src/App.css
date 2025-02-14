@@ -2,13 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/neusharp');
-body{
-  overflow-x: hidden;
-}
+
 p{
   margin-bottom: 0px;
 }
 
+.row{
+  padding: 0px;
+  margin: 0px;
+}
 .caption-breadcumb h4{
   margin-top: 90px;
   text-align: center;
@@ -112,12 +114,33 @@ header{
   background-color: #2F0F35;
   
 }
+.bottom-text a{
+  color: #fff;
+}
+.modal-content{
+  background: transparent;
+}
+.modal-content video{
+  border-radius: 10px;
+}
+#teampage{
+  padding: 30px 20px;
+  background-color: #2f0f35;
+}
+#teampage img{
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.modal-body{
+  padding: 0px;
+}
 .logo img{
-  width: 125px;
+  width: 140px;
   padding: 10px;
   margin: auto;
   display: block;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 .bannerwidth {
@@ -194,7 +217,8 @@ header{
   font-size: 45px;
   font-family: "Bebas Neue", serif;
   text-align:left ;
-  width:72%;
+  width:65%;
+  
   line-height: 50px;
 
 }
@@ -373,7 +397,7 @@ a{
   margin-bottom: 0px;
 }
 .news-caption h5{
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   font-family: "Bebas Neue";
   color: #381A3D;
@@ -610,10 +634,31 @@ padding: 20px 70px 30px 70px;
   width: 46%;
   text-align: center;
 }
+
+.centerbox img{
+  border-radius: 10px;
+}
+.desktop{
+  display: block;
+}
+.mobile{
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   .desktopmenu{
     display: none;
   }
+
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  header .container-fluid{
+padding: 0px;
+  }
+ 
   .Mobilembox{
     display: block;
   }
@@ -666,9 +711,20 @@ width: 100%;
   z-index: 0px;
 
 }
+
 .carousel-caption h4 {
-  width: 95%;
+  width: 85%;
   font-size: 30px;
+  line-height: 34px;
+
+}
+.titleweb h2{
+  margin-bottom: 20px!important;
+  font-size: 32px!important;
+  letter-spacing: 2px;
+}
+#fixture{
+  padding: 25px 15px!important;
 }
 .readmore{
   padding: 8px 11px;
@@ -879,7 +935,7 @@ width: 100%;
 }
 .custom-nav svg{
   color: #000;
-  line-height: 0px;
+  line-height: 0px
 }
 
 .centerfixturecard{
@@ -887,8 +943,8 @@ width: 100%;
 }
 .fixturecard{
   background-color: #562D5B;
-  BORDER: 1PX SOLID #8F47B2;
-  background-image: url('./fixturebg.jpg');
+  /* BORDER: 1PX SOLID #8F47B2; */
+  background-image: url('./fixcard.png');
   padding:10px 0px 0px 0px; 
   border-radius: 10px;
   background-size: cover;
@@ -896,6 +952,9 @@ width: 100%;
 }
 #fixture{
   background-color: #381A3D;
+  background-image: url('./bgnew.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 50px 0px 50px 30px;
 }
 .titlefixture p{
@@ -964,7 +1023,7 @@ width: 100%;
   margin:10px auto 0px auto;
   display: block;
   color: #fff;
-  background: linear-gradient(90deg, rgba(183,137,72,1) 35%, rgba(220,176,107,1) 100%);
+  background: #764B05;
 
 }
 .titleweb h2{
@@ -1019,7 +1078,7 @@ width: 100%;
   position: relative;
   overflow: hidden;
   border:1px solid #fff;
-  border-radius: 40px;
+  border-radius: 10px;
   height:280px; 
 }
 
@@ -1027,7 +1086,7 @@ width: 100%;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .overlay {
@@ -1111,10 +1170,13 @@ width: 100%;
   font-family: 'Poppins';
   font-size: 12px;
 }
+header .container-fluid{
+  padding: 0px;
+}
 .footerfixture
 {
   padding: 10px;
-    background: #381a3d;
+    background:#764B05;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -1123,6 +1185,9 @@ width: 100%;
   .abouttitle p {
     font-size: 11px;
     width: 100%;
+  }
+  .aboutabtract{
+    margin: 20px auto;
   }
   .centerbox img{
     width: 90%;
@@ -1134,14 +1199,14 @@ width: 100%;
     width: 85px;
   }
   .newarticles, #video {
-    padding: 23px 0px 30px 5px;
+    padding: 25px 10px 25px 15px;
   }
   .image-container {
     height: 220px;
     border-radius: 15px;
   }
   .news-caption h5 {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 22px;
   }
   .news-caption {
@@ -1178,3 +1243,5 @@ width: 100%;
     margin: 20px 0px;
   }
 }
+
+

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom';
-import logo from './logo.png'
+import logo from './logosvg.svg'
 import logoright from './logos (2).png'
 import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
 import { motion } from "framer-motion";
@@ -88,15 +88,14 @@ export default function Header() {
 
 
                                 <li >
-                                    Teams
+                                <Link to="/team" onClick={closeMenu}>
+                                    Team
+                                    </Link>
                                 </li>
 
 
 
-                                <li>
-                                    Matches
-                                </li>
-
+                            
 
                                 <li>
                                     
@@ -149,56 +148,50 @@ export default function Header() {
 
       {/* Menu Items */}
       <motion.div
-        initial={{ x: "-100%", opacity: 0 }}
-        animate={{ x: isOpen ? 0 : "-100%", opacity: isOpen ? 1 : 0 }}
-        transition={{ duration: 0.3 }}
-        className="absolute left-0 top-12 w-48 bg-humburger shadow-md rounded-lg p-2"
-      >
-        <ul className="space-y-2 text-gray-800">
-        <li>
-                                <Link to="/">
-                                    Home
-                                    </Link>
-                                </li>
+  initial={{ x: "-100%", opacity: 0 }}
+  animate={{ x: isOpen ? 0 : "-100%", opacity: isOpen ? 1 : 0 }}
+  transition={{ duration: 0.3 }}
+  className="absolute left-0 top-12 w-48 bg-humburger shadow-md rounded-lg p-2"
+>
+  <ul className="space-y-2 text-gray-800">
+    <li>
+      <Link to="/" onClick={closeMenu}>
+        Home
+      </Link>
+    </li>
 
-                                <li><Link to="/about">
-                                About ILC
-                                </Link>
-                                    
-                                </li>
+    <li>
+      <Link to="/about" onClick={closeMenu}>
+        About ILC
+      </Link>
+    </li>
 
+    <li>
+      <Link to="/teams" onClick={closeMenu}>
+        Team
+      </Link>
+    </li>
 
-                                <li>
-                                <Link to="/about">
-                                Team
-                                </Link>
-                                </li>
+    <li>
+      <Link to="/matches" onClick={closeMenu}>
+        Matches
+      </Link>
+    </li>
 
+    <li>
+      <Link to="/media" onClick={closeMenu}>
+        Media
+      </Link>
+    </li>
 
+    <li>
+      <Link to="/photos" onClick={closeMenu}>
+        Gallery
+      </Link>
+    </li>
+  </ul>
+</motion.div>
 
-                                <li>
-                                <Link to="/about">
-                                Matches
-                                </Link>
-                                    
-                                </li>
-                                
-                                <li>
-                                    
-                                    <Link to="/media" onClick={closeMenu}>
-                                    Media
-                                    </Link>
-                                </li>
-
-
-
-                                <li>
-                                <Link to="/photos">
-                                    Gallery
-                                    </Link>
-                                </li>
-        </ul>
-      </motion.div>
     </div>
 </>
 

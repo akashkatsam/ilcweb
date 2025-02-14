@@ -12,7 +12,7 @@ import logo5 from '../About/Teamilc/5.png'
 import logo6 from '../About/Teamilc/6.png'
 import logo3 from '../About/Teamilc/3.png'
 import mvp from '../About/mvplogo.png'
-import stadium from './Frame 599.jpg'
+import stadium from './Leauge-BG.jpg'
 
 import ilcvideo from '../About/videolast.mp4'
 import text from '../About/text.png'

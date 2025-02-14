@@ -1,6 +1,11 @@
 import React from 'react'
 import sonylogo from './sonylogo.png'
-import line from './separateline.png'
+import line from './separateline.png';
+import logo21 from '../dsgrp.jpg'
+import mp from './MP.jpg'
+import attica from './attica.jpg'
+import newlogo from './100psoorts.jpg'
+import fancode from './fancode.jpg'
 export default function Partner() {
   return (
     <section id='bg-white'>
@@ -20,7 +25,7 @@ export default function Partner() {
   <div className="col-md-2 col-4">
     <div className="partentitle text-center">
       <h3>brand partner</h3>
-      <img src={sonylogo} className="img-fluid" />
+      <img src={fancode} className="img-fluid" />
     </div>
   </div>
 </div>
@@ -40,14 +45,14 @@ export default function Partner() {
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
                 <h3>brand partner</h3>
-                <img src={sonylogo} className='img-fluid' />
+                <img src={mp} className='img-fluid' />
               </div>
             </div>
 
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
                 <h3>media partner</h3>
-                <img src={sonylogo} className='img-fluid' />
+                <img src={newlogo} className='img-fluid' />
               </div>
             </div>
 
@@ -71,7 +76,7 @@ export default function Partner() {
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
                 <h3> partner</h3>
-                <img src={sonylogo} className='img-fluid' />
+                <img src={attica} className='img-fluid' />
               </div>
             </div>
 
@@ -80,7 +85,7 @@ export default function Partner() {
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
                 <h3> partner</h3>
-                <img src={sonylogo} className='img-fluid' />
+                <img src={logo21} className='img-fluid' />
               </div>
             </div>
 

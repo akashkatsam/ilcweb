@@ -7,6 +7,8 @@ import newsimg from './newimg.jpg'
 import { Link } from 'react-router-dom';
 import new1 from './new2.jpg'
 import new2 from './news3.jpg'
+import new3 from './new3.jpg'
+
 
 
 export default function News() {
@@ -61,7 +63,7 @@ export default function News() {
                             <div className='news-caption'>
                                 <p>Feb 07, 2025 | Khaleej Times</p>
                                 <Link to="https://www.khaleejtimes.com/sports/cricket/south-african-legend-gibbs-in-dubai-to-promote-intercontinental-legends-championship?_refresh=true" target="_blank">
-                                    <h5>South African legend Gibbs in Dubai to promote Intercontinental Legends Championship</h5>
+                                    <h5>South African legend Gibbs in Dubai to promote Intercontinental Legends..</h5>
                                 </Link>
 
                             </div>
@@ -71,11 +73,11 @@ export default function News() {
 
                         <div className='newscard'>
                             <div className='newimg'>
-                                <img src={new2} className='img-fluid' />
+                                <img src={new3} className='img-fluid' />
                             </div>
                             <div className='news-caption'>
-                                <p>March 18, 2025</p>
-                                <h5>Asian Avengers fought back from two down to win 5-2 against Indo Warriors</h5>
+                                <p>Feb 07, 2025 | ANI</p>
+                                <h5>Intercontinental Legends Championship Trophy unveiled in Dubai</h5>
                             </div>
                         </div>
 
