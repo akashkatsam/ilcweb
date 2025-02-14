@@ -25,9 +25,13 @@ export default function Banner() {
 
         <h4>Intercontinental Legends Championship Trophy unveiled in Dubai</h4>
         </Link>
+
+        <Link target='_blank' to="https://www.aninews.in/news/sports/cricket/intercontinental-legends-championship-trophy-unveiled-in-dubai20250208232112/">
+
         <button className='readmore'>
         Continue Reading
         </button>
+  </Link>
       </div>
     </div>
    
