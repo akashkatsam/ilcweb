@@ -6,6 +6,7 @@ import mp from './MP.jpg'
 import attica from './attica.jpg'
 import newlogo from './100psoorts.jpg'
 import fancode from './fancode.jpg'
+import ps from './ps.png'
 export default function Partner() {
   return (
     <section id='bg-white'>
@@ -15,19 +16,15 @@ export default function Partner() {
 
     <div className='partnerlogo'>
     <div className="row d-flex justify-content-center mx-auto">
-  <div className="col-md-2 col-4">
+  <div className="col-md-3 col-4">
     <div className="partentitle text-center">
-      <h3>brand partner</h3>
+      <h3>OFFICIAL PARTNER
+      </h3>
       <img src={sonylogo} className="img-fluid" />
     </div>
   </div>
 
-  <div className="col-md-2 col-4">
-    <div className="partentitle text-center">
-      <h3>brand partner</h3>
-      <img src={fancode} className="img-fluid" />
-    </div>
-  </div>
+  
 </div>
 
 
@@ -37,21 +34,22 @@ export default function Partner() {
 
 
         <div className='ourpartner'>
-          <div className='row'>
+          <div className='row d-flex justify-content-center mx-auto'>
 
             <div className='partnertitle'>
-              <h5>our partners</h5>
+              <h5>ASSOCIATE PARTNER
+              </h5>
             </div>
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
-                <h3>brand partner</h3>
+                <h3>Organised By</h3>
                 <img src={mp} className='img-fluid' />
               </div>
             </div>
 
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
-                <h3>media partner</h3>
+                <h3>Managed By</h3>
                 <img src={newlogo} className='img-fluid' />
               </div>
             </div>
@@ -60,18 +58,13 @@ export default function Partner() {
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
                 <h3>official partner</h3>
-                <img src={sonylogo} className='img-fluid' />
+                <img src={ps} className='img-fluid' />
               </div>
             </div>
 
 
 
-            <div className='col-md-2 col-4'>
-              <div className='partentitle'>
-                <h3>Associate partner</h3>
-                <img src={sonylogo} className='img-fluid' />
-              </div>
-            </div>
+           
 
             <div className='col-md-2 col-4'>
               <div className='partentitle'>
