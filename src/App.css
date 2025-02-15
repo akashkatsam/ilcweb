@@ -239,7 +239,7 @@ a{
 /* footer */
 .footerhagtag h3{
   font-size: 65px;
-  color: #fefefe1f;
+  color: #fff;
   text-transform: uppercase;
   font-family: "Bebas Neue", serif;
   text-align: center;
@@ -291,10 +291,11 @@ a{
 }
 
 #sectinfotter{
-  padding:50px 0px 20px 0px;
-  background-image: url('./Include/bg2.png');
+  padding:50px 0px 160px 0px;
+  background-image: url('./ilcbg2fotter.png');
   background-color: #37193d;
-  background-size: contain;
+  width: 100%;
+  background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
 
@@ -967,7 +968,7 @@ color: #fff;
 }
 #fixture{
   background-color: #381A3D;
-  background-image: url('./bgnew.png');
+  background-image: url('./bgilc.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 0px 50px 30px;
