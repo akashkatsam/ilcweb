@@ -538,6 +538,7 @@ a {
 .aboutright h4 {
   color: #fff;
   font-family: 'Bebas Neue';
+  float: right;
   font-size: 74px;
   margin-left: 20px;
   line-height: 74px;
