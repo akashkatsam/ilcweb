@@ -1,48 +1,153 @@
-import React from 'react'
-import banener from './ILC website banner ed1.jpg';
-import tag from './bannerocerlay .png'
-import Fixture from './Fixture';
-import bannermob from './bannermob.jpg'
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Carousel } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import bannermob from "./bannermob.jpg";
+import banener from "./ILC website banner ed1.jpg";
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export default function Banner() {
-    return (
+  const [index, setIndex] = useState(0);
 
-        <>
-        <section id='homebanner'>
-           <div id="carouselExampleCaptions" class="carousel slide">
-  {/* <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div> */}
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={banener} class="d-block w-100 bannerwidth desktop" alt="..."/>
-      <img src={bannermob} className='img-fluid mobile' />
-      <div class="carousel-caption d-md-block">
-      <Link target='_blank' to="https://www.aninews.in/news/sports/cricket/intercontinental-legends-championship-trophy-unveiled-in-dubai20250208232112/">
+  const slides = [
+    {
+      id: 1,
+      image: banener,
+      mobileImage: bannermob,
+      title: "Intercontinental Legends Championship Trophy unveiled in Dubai",
+      link: "https://www.example.com/article1",
+    },
+    {
+      id: 2,
+      image: banener,
+      mobileImage: bannermob,
+      title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
+      link: "https://www.example.com/article2",
+    },
+  ];
 
-        <h4>Intercontinental Legends Championship Trophy unveiled in Dubai</h4>
-        </Link>
+  const handlePrev = () => {
+    setIndex(index === 0 ? slides.length - 1 : index - 1);
+  };
 
-        <Link target='_blank' to="https://www.aninews.in/news/sports/cricket/intercontinental-legends-championship-trophy-unveiled-in-dubai20250208232112/">
+  const handleNext = () => {
+    setIndex(index === slides.length - 1 ? 0 : index + 1);
+  };
 
-        <button className='readmore'>
-        Continue Reading
+  return (
+    <section id="homebanner" style={{ position: "relative" }}>
+      {/* Fixed Navigation Buttons */}
+      <div className="banner-buttons">
+        <button className="owl-prev-btn" onClick={handlePrev}>
+          <FaArrowLeftLong />
         </button>
-  </Link>
+        <button className="owl-next-btn" onClick={handleNext}>
+          <FaArrowRightLong />
+        </button>
       </div>
-    </div>
-   
-   
-  </div>
-</div>
-        </section>
 
-<Fixture/>
+      <Carousel
+        activeIndex={index}
+        onSelect={(selectedIndex) => setIndex(selectedIndex)} // Updates the active slide when a dot is clicked
+        fade
+        indicators={false} // Disable default indicators
+        controls={false}
+        interval={5000} // Autoplay interval in ms
+        pause="hover" // Pauses autoplay on hover
+      >
+        {slides.map((slide) => (
+          <Carousel.Item key={slide.id}>
+            <img
+              src={slide.image}
+              className="d-block w-100 desktop banner-image"
+              alt="banner"
+            />
+            <img
+              src={slide.mobileImage}
+              className="d-block w-100 mobile banner-image"
+              alt="mobile banner"
+            />
+            <div className="banner-overlay"></div>
+            <Carousel.Caption>
+              <Link target="_blank" to={slide.link}>
+                <h4>{slide.title}</h4>
+              </Link>
+              <Link target="_blank" to={slide.link}>
+                <button className="readmore">Continue Reading</button>
+              </Link>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
 
-</>
+      {/* Custom Indicators */}
+      <div className="carousel-indicators-container">
+        {slides.map((slide, idx) => (
+          <button
+            key={slide.id}
+            className={`carousel-indicator ${index === idx ? "active" : ""}`}
+            onClick={() => setIndex(idx)}
+          />
+        ))}
+      </div>
 
-    )
+      <style>
+        {`
+          .banner-buttons {
+            position: absolute;
+            top: 46%;
+            left: 5%;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            width: 40px;
+            z-index: 10;
+          }
+
+          .owl-prev-btn, .owl-next-btn {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 5px;
+          }
+
+          .owl-prev-btn:hover, .owl-next-btn:hover {
+            background: rgba(0, 0, 0, 0.8);
+          }
+
+          .carousel-indicators-container {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .carousel-indicator {
+            width: 12px;
+            height: 12px;
+            margin: 0 5px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+          }
+
+          .carousel-indicator.active {
+            background-color: #fff;
+          }
+
+          .carousel-indicator:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+          }
+        `}
+      </style>
+    </section>
+  );
 }

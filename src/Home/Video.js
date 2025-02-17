@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -7,9 +7,26 @@ import v1 from './thum1.jpg'
 import v2 from './thum2.jpg'
 import v3 from './v321.jpg'
 import { Link } from 'react-router-dom';
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Video() {
 
+     const carouselRef = useRef(null);
+        
+    
+        const goToPrev = () => {
+            if (carouselRef.current) {
+              carouselRef.current.prev();
+            }
+          };
+        
+          const goToNext = () => {
+            if (carouselRef.current) {
+              carouselRef.current.next();
+            }
+          };
+    
     const options = {
         loop: true,
         margin: 20,
@@ -36,9 +53,17 @@ export default function Video() {
 <>
 
         <section id='video'>
-            <div class="title-team"><h4>ILC TV</h4></div>
+            <div class="title-team"><h4>ILC TV</h4>
+             <div className="nav-buttons">
+                                  <button className="owl-prev-btn" onClick={goToPrev}><FaArrowLeftLong />
+                                  </button>
+                                  <button className="owl-next-btn" onClick={goToNext}><FaArrowRightLong />
+                                  </button>
+                                </div>
             
-            <OwlCarousel {...options} className="owl-theme">
+            </div>
+            
+        <OwlCarousel ref={carouselRef} {...options} className="owl-theme">
 
                 <div class="image-container">
                     <img src={v1} alt="Example Image" />

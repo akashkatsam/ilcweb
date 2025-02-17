@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from "react";
 import $ from "jquery";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -9,9 +9,25 @@ import new1 from './new2.jpg'
 import new2 from './news3.jpg'
 import new3 from './new3.jpg'
 
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 
 export default function News() {
+      const carouselRef = useRef(null);
+    
+
+    const goToPrev = () => {
+        if (carouselRef.current) {
+          carouselRef.current.prev();
+        }
+      };
+    
+      const goToNext = () => {
+        if (carouselRef.current) {
+          carouselRef.current.next();
+        }
+      };
 
     const options = {
         loop: true,
@@ -37,10 +53,19 @@ export default function News() {
     
     return (
         <section className='newarticles'>
-            <div class="title-team"><h4>News & Announcement</h4></div>
+            <div class="title-team"><h4>News & Announcement</h4>
+            <div className="nav-buttons">
+                      <button className="owl-prev-btn" onClick={goToPrev}><FaArrowLeftLong />
+                      </button>
+                      <button className="owl-next-btn" onClick={goToNext}><FaArrowRightLong />
+                      </button>
+                    </div>
+            </div>
+
+
             <div className='container-fluid'>
                 <div className='row'>
-                <OwlCarousel {...options} className="owl-theme">
+        <OwlCarousel ref={carouselRef} {...options} className="owl-theme">
 
                         <div className='newscard'>
                             <div className='newimg'>

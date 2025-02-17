@@ -13,7 +13,7 @@ import logo6 from '../About/Teamilc/6.png'
 import logo3 from '../About/Teamilc/3.png'
 import mvp from '../About/mvplogo.png'
 import stadium from './Leauge-BG.jpg'
-
+import stump from './stump2.svg'
 import ilcvideo from '../About/videolast.mp4'
 import text from '../About/text.png'
 import Fixture from './Fixture';
@@ -21,46 +21,55 @@ import Video from './Video';
 import Partner from './Partner';
 
 export default function Index() {
-    return (
-      <>
-      <Banner/>
-
-<section className='teamlogoaboutus arrowbg'>
-<div className='title-team'>
-  <h4>Our Teams</h4>
-</div>
-<div className='row'>
-  <div className='col-md-2 col-4'>
-    <img src={logo1} className='img-fluid'/>
-  </div>
-  <div className='col-md-2 col-4'>
-    <img src={logo2} className='img-fluid'/>
-  </div>
-  <div className='col-md-2 col-4'>
-    <img src={logo3} className='img-fluid'/>
-  </div>
-  <div className='col-md-2 col-4'>
-    <img src={logo4} className='img-fluid'/>
-  </div>
-  <div className='col-md-2 col-4'>
-    <img src={logo5} className='img-fluid'/>
-  </div>
-  <div className='col-md-2 col-4'>
-    <img src={logo6} className='img-fluid'/>
-  </div>
-</div>
+  return (
+    <>
+      <Banner />
+      <Fixture />
 
 
-  </section>
-  <section className='stadium-banner'>
-  <img src={stadium} className='img-fluid' />
 
-</section>
+      <section id="teamshome">
+        {/* Title and Buttons */}
+        <div className="titleweb">
+          <h2>
+            <img src={stump} className="img-fluid" alt="stump" /> Team
+          </h2>
+        </div>
 
-      <News/>
+        <div className='teamslogohome'>
+          <div className='row'>
+            <div className='col-md-2 col-4'>
+              <img src={logo1} className='img-fluid' />
+            </div>
+            <div className='col-md-2 col-4'>
+              <img src={logo2} className='img-fluid' />
+            </div>
+            <div className='col-md-2 col-4'>
+              <img src={logo3} className='img-fluid' />
+            </div>
+            <div className='col-md-2 col-4'>
+              <img src={logo4} className='img-fluid' />
+            </div>
+            <div className='col-md-2 col-4'>
+              <img src={logo5} className='img-fluid' />
+            </div>
+            <div className='col-md-2 col-4'>
+              <img src={logo6} className='img-fluid' />
+            </div>
+          </div>
+        </div>
 
-      <Video/>
-      <Partner/>
-      </>
-    )
+      </section>
+
+      <section className='stadium-banner'>
+        <img src={stadium} className='img-fluid' />
+
+      </section>
+
+      <News />
+
+      <Video />
+      <Partner />
+    </>
+  )
 }

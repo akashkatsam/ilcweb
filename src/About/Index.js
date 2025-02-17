@@ -4,7 +4,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import img from './bg1.jpg'
 import imgleft from './imgleft.png'
-import text from './text.png'
+import text from './textnew.png'
 import center from './ground-02.png'
 import ilcvideo from './videolast.mp4'
 import mvp from './mvplogo.png'
@@ -120,9 +120,10 @@ const options = {
               <div className='col-md-6 align-self-center p-0'>
                 <div className='aboutright'>
                   {/* <img src={mvp} className='img-fluid logomvp' /> */}
+              
                   <h4> Legends <br></br>
-                    return  to the pitch  <br></br>
-                    <img src={text} className='img-fluid textimg' />  for glory
+                  return to the pitch For  <br></br>
+                    <img src={text} className='img-fluid textimg' />     &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;  glory
                   </h4>
                 </div>
               </div>

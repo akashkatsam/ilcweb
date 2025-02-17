@@ -40,7 +40,7 @@ font-family: 'poppins';
   font-size: 12px;
   margin-bottom: 0px;
   text-align: center;
-  padding: 8px;
+  padding:10px;
   font-family: "Poppins", serif;
 
 }
@@ -64,7 +64,7 @@ ul{
   justify-content: center;
   background-color: #fff;
   margin-bottom: 0px;
-  padding: 5px;
+  padding: 8px;
 
 
 }
@@ -143,10 +143,7 @@ header{
   margin-top: -40px;
 }
 
-.bannerwidth {
-  width: 100%;
-  /* height: 90vh; */
-}
+
 .stats{
   text-align: left;
   font-family: "Racing Sans One";
@@ -209,18 +206,28 @@ header{
 .readmore::before {
   width: 150%;
 }
-
+#aboutus{
+background-image: url('./About/bgglow.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
 .carousel-caption{
-  bottom:10%;
+  bottom:8%;
 }
 .carousel-caption h4{
   font-size: 45px;
   font-family: "Bebas Neue", serif;
   text-align:left ;
-  width:65%;
-  
+  width:70%;
   line-height: 50px;
 
+}
+
+.carousel-indicators button {
+  width: 16px !important;
+  background-color: transparent !important;
+  border: 1px solid #fff;
+  height: 16px !important;
 }
 .headingfixture h3{
   font-family: "Racing Sans One";
@@ -235,7 +242,12 @@ a{
   background-image: url('./Home/bgline.png');
   padding: 10px
 }
-
+.leftpara{
+  text-align: left;
+}
+.rightpara{
+  text-align: right;
+}
 /* footer */
 .footerhagtag h3{
   font-size: 65px;
@@ -411,13 +423,19 @@ a{
 .breadcrumb{
   margin-bottom: 0px;
 }
+.carousel-indicators button {
+  border-radius: 10px !important;
+}
 
+
+.carousel-indicators button{
+  margin-left:6px!important;
+}
 .breadcrumb img {
 width: 100%;
 }
 
 .topsectionabout {
-  background-color: #381a40;
   /* background-image: url('./About/wave_line_2 2 (1).png'); */
   background-size: cover;
   padding-top: 20px;
@@ -441,7 +459,7 @@ width: 100%;
 }
 .aboutleft video{
   border-radius: 10px;
-  width: 90%;
+  width: 80%;
 }
 
 .abouttitle h4{
@@ -469,8 +487,69 @@ width: 100%;
   position: relative;
 }
 
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(358deg, #2E1631 15%, rgba(0, 0, 0, 0) 100%);
+  z-index: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  z-index: 2;
+  color: white;
+  width: 80%;
+}
+.carousel-indicators{
+  bottom: 50px!important;
+}
+.carousel-indicators{
+  border-radius: 20px;
+}
+.carousel-indicators button{
+  border-radius: 20px!important;
+
+  width: 5px!important;
+  height:  5px!important;
+  background-color: #fff;
+}
+.carousel-indicators .active{
+  width: 16px !important;
+  background-color: transparent !important;
+  border: 1px solid #fff;
+  height: 16px !important;
+
+}
+.carousel-indicators button{
+  margin-top: -10px;
+}
+.carousel-indicators button .active{
+  margin-top: 0px!important;
+}
+
+.carousel-indicators button{
+  width: 5px !important;
+  background-color: #fff !important;
+  border: 1px solid #fff;
+  height:5px !important;
+
+}
+.banner-buttons{
+  left: 5%;
+  width: 40px;
+  margin-bottom: 40px!important;
+}
+.owl-prev-btn, .owl-next-btn{
+  margin-right: 10px;
+  padding: 5px 10px!important;
+}
 .textimg{
-  width: 200px;
+  width: 300px;
 }
 
 .aboutabtract{
@@ -489,8 +568,9 @@ width: 100%;
 }
 #aboutbox ,#aboutus{
 
-  background-color: #381a40;
+  background-color: #381a3d;
 padding: 20px 70px 30px 70px;
+background-position: bottom;
 }
 .teamlogoaboutus{
   padding: 20px 10px;
@@ -513,9 +593,22 @@ padding: 20px 70px 30px 70px;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-  font-size: 33px;
+  font-size: 40px;
   margin-bottom:35px;
   font-family: 'Bebas Neue';
+}
+
+.owl-prev-btn, .owl-next-btn{
+  background-color: #FEFEFE!important;
+    width: 38px;
+    height: 27px;
+    display: flex;
+    padding: 3px 5px;
+    align-items: center;
+    justify-content: center;
+}
+.owl-prev-btn svg, .owl-next-btn svg{
+  color: #000!important;
 }
 #boxsquare{
   background-image:url('./About/01-png.png');
@@ -594,6 +687,8 @@ padding: 20px 70px 30px 70px;
 .stadium-banner img{
   width: 100%;
 }
+
+
 .highlight{
   color:#efa73c ;
   font-weight:500;
@@ -762,7 +857,7 @@ width: 100%;
 .aboutright h4 {
 color: #fff;
     font-family: 'Bebas Neue';
-    font-size: 74px;
+    font-size: 70px;
     margin-left: 20px;
     line-height: 74px;
     margin-top: 20px;
@@ -957,6 +1052,57 @@ color: #fff;
 .centerfixturecard{
   padding: 10px 15px 0px 15px;
 }
+
+
+.nav-buttons {
+  display: flex;
+  gap:2px;
+  margin-top: -40px;
+  justify-content: flex-end;
+}
+
+.nav-buttons button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+.nav-buttons {
+  display: flex;
+  gap:2px; /* Adds spacing between buttons */
+}
+
+
+.nav-buttons{
+  position: absolute;
+  margin-top: -76px;
+  float: right;
+  right: 34px;
+}
+
+
+
+.nav-buttons button{
+  background-color: #FEFEFE;
+  width: 38px;
+  height: 27px;
+  display: flex;
+  padding: 3px 5px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-buttons button svg{
+color: #381A3D;
+}
+
+
 .fixturecard{
   background-color: #562D5B;
   /* BORDER: 1PX SOLID #8F47B2; */
@@ -966,12 +1112,22 @@ color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
 }
+#teamshome{
+  background-color: #381A3D;
+  padding: 40px 140px 60px 140px;
+}
+
+.teamslogohome img{
+width: 114px;
+margin: auto;
+display: block;
+}
 #fixture{
   background-color: #381A3D;
   background-image: url('./bgilc.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px 0px 50px 30px;
+  padding: 40px 0px 40px 30px;
 }
 .titlefixture p{
   color: #fff;
@@ -1047,6 +1203,27 @@ color: #fff;
   color: #fff;
   font-family: 'Bebas Neue';
   margin-bottom: 40px;
+  font-size: 50px!important;
+
+}
+.owl-dots{
+  margin-top: 40px!important;
+}
+
+
+.owl-dots .active span{
+  width: 16px!important;
+  background-color: transparent!important;
+  border: 1px solid #fff;
+  height: 16px!important;
+}
+
+
+.owl-dots  span{
+  width: 5px!important;
+  height:5px!important;
+  margin-top: -15px!important;
+  background-color: #969696!important;
 }
 
 
