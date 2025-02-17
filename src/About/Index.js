@@ -36,51 +36,51 @@ export default function Index() {
       });
     }
   }, []);
- 
-
-const founderData = [
-  {
-    id: 1,
-    name: "Sanjay Agarwal",
-    content: "Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction is MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction - MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction - MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction - MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction.",
-    image: "founder1.jpg"
-  },
-  {
-    id: 2,
-    name: "John Doe",
-    content: "Legendary player in the league with remarkable achievements.",
-    image: "founder2.jpg"
-  },
-  {
-    id: 3,
-    name: "Michael Smith",
-    content: "A rising star making an impact in the championship.",
-    image: "founder3.jpg"
-  }
-];
 
 
-
-const textCarousel = useRef(null);
-const imageCarousel = useRef(null);
-
-const options = {
-  loop: true,
-  margin: 10,
-  nav: false,
-  dots: true,
-  autoplay: true,
-  autoplayTimeout: 5000,
-  items: 1,
-  smartSpeed: 1000,
-  onTranslate: (event) => {
-    let index = event.item.index;
-    if (textCarousel.current && imageCarousel.current) {
-      textCarousel.current.to(index);
-      imageCarousel.current.to(index);
+  const founderData = [
+    {
+      id: 1,
+      name: "Sanjay Agarwal",
+      content: "Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction is MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction - MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction - MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction - MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction.",
+      image: "founder1.jpg"
+    },
+    {
+      id: 2,
+      name: "John Doe",
+      content: "Legendary player in the league with remarkable achievements.",
+      image: "founder2.jpg"
+    },
+    {
+      id: 3,
+      name: "Michael Smith",
+      content: "A rising star making an impact in the championship.",
+      image: "founder3.jpg"
     }
-  },
-};
+  ];
+
+
+
+  const textCarousel = useRef(null);
+  const imageCarousel = useRef(null);
+
+  const options = {
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    items: 1,
+    smartSpeed: 1000,
+    onTranslate: (event) => {
+      let index = event.item.index;
+      if (textCarousel.current && imageCarousel.current) {
+        textCarousel.current.to(index);
+        imageCarousel.current.to(index);
+      }
+    },
+  };
 
 
   return (
@@ -119,10 +119,8 @@ const options = {
               </div>
               <div className='col-md-6 align-self-center p-0'>
                 <div className='aboutright'>
-                  {/* <img src={mvp} className='img-fluid logomvp' /> */}
-              
                   <h4> Legends <br></br>
-                  return to the pitch For  <br></br>
+                    return to the pitch For  <br></br>
                     <img src={text} className='img-fluid textimg' />     &nbsp;    &nbsp;    &nbsp;    &nbsp;    &nbsp;  glory
                   </h4>
                 </div>
@@ -155,20 +153,20 @@ const options = {
       <section id='centerimg'>
         <img src={center} className='img-fluid' />
       </section>
-<div className="dividerstadium"></div>
+      <div className="dividerstadium"></div>
 
-     
+
       <section id="boxsquare">
         <div className='row'>
           <div className='abouttitle'>
             <h4>About the league</h4>
             <p>
-            Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction is MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction.
-              </p>
+              Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction is MARCH 2025 Top buys from INTERCONTINENTAL LEGENDS CHAMPIONSHIP Player Auction.
+            </p>
           </div>
 
           <div className='centerbox'>
-            <img src={videobox}  className='img-fluid' />
+            <img src={videobox} className='img-fluid' />
           </div>
         </div>
         {/* <div className='row'>
@@ -223,7 +221,7 @@ const options = {
       </section>
 
 
-      {/* <FounderSlider/> */}
+      <FounderSlider/>
 
       {/* <section id='foundermessage'>
         <div className='message'>
@@ -266,10 +264,10 @@ const options = {
         </div>
       </section> */}
 
-    
+
       <div className="bg-purple-900 text-white p-10 flex justify-center">
-     
-    </div>
+
+      </div>
     </>
   )
 }

@@ -1,23 +1,25 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/neusharp');
 
-body{
+body {
   overflow-x: hidden;
   width: 100%;
 }
-p{
+*{
+  scroll-behavior: smooth;
+}
+p {
   margin-bottom: 0px;
 }
-.stump{
+
+.stump {
   margin-left: -62px;
   margin-top: -23px;
   position: absolute;
 
 }
 
-.stump2{
+.stump2 {
   width: 77px;
   margin-left: -70px;
   margin-top: -23px;
@@ -25,57 +27,75 @@ p{
 
 }
 
-.row{
+.socialinkfounder ul{
+  padding-left: 0px;
+  display: flex;
+}
+.socialinkfounder svg{
+  width: 20px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  color: #fff;
+}
+.row {
   padding: 0px;
   margin: 0px;
 }
-.caption-breadcumb h4{
+
+.caption-breadcumb h4 {
   margin-top: 90px;
   text-align: center;
   color: #fff;
   font-family: 'Bebas Neue';
-  font-size:38px;
+  font-size: 38px;
   margin-bottom: 0px;
 }
 
-.caption-breadcumb p{
+.caption-breadcumb p {
   text-align: center;
   color: #fff;
-font-family: 'poppins';
+  font-family: 'poppins';
   font-size: 17px;
   font-weight: 300;
 }
-.logomvp{
+
+.logomvp {
   width: 130px;
 }
-#breadcumd{
+
+#breadcumd {
   background-image: url('./bd.jpg');
   height: 230px;
   background-size: cover;
 }
-.highlights p{
+
+.highlights p {
   color: #fff;
   font-size: 14px;
   margin-bottom: 0px;
   text-align: center;
-  padding:10px;
+  padding: 10px;
   font-family: "Poppins", serif;
 
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
-.highlights
-{
+
+.highlights {
   background-color: #2F0F35;
 
 }
-ul{
+
+ul {
   list-style-type: none;
   margin-bottom: 0px;
 
 }
-.socialheader ul{
+
+.socialheader ul {
   display: flex;
   list-style-type: none;
   padding-left: 0px;
@@ -87,16 +107,17 @@ ul{
 
 }
 
-.socialheader
-{
+.socialheader {
   clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
-  
+
 }
+
 .socialheader ul li {
-margin-left: 22px;
-position: relative;
+  margin-left: 22px;
+  position: relative;
 }
-.socialheader ul li svg{
+
+.socialheader ul li svg {
   margin-top: -4px;
   color: #1A1A1A;
 
@@ -104,56 +125,65 @@ position: relative;
 
 
 
-.centernavitem{
+.centernavitem {
   /* background-color: #58306C; */
   padding: 16px 0px 8px;
-  
+
   /* clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%); */
   background-image: url('./headerbg.png');
 
 }
-.centernavitem ul{
+
+.centernavitem ul {
   display: flex;
 }
 
-.centernavitem li{
+.centernavitem li {
   color: #fff;
-   font-family: "Bebas Neue";
-   letter-spacing: 1px;
-font-size: 20px;
-margin-left: 70px;
+  font-family: "Bebas Neue";
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-left: 70px;
 
 }
-.centernavitem a
 
-{    color: #fff;
-  text-decoration: none;}
-header{
+.centernavitem a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
   background-color: #2F0F35;
-  
+
 }
-.bottom-text a{
+
+.bottom-text a {
   color: #fff;
 }
-.modal-content{
+
+.modal-content {
   background: transparent;
 }
-.modal-content video{
+
+.modal-content video {
   border-radius: 10px;
 }
-#teampage{
+
+#teampage {
   padding: 30px 20px;
   background-color: #2f0f35;
 }
-#teampage img{
+
+#teampage img {
   margin-bottom: 20px;
   border-radius: 10px;
 }
 
-.modal-body{
+.modal-body {
   padding: 0px;
 }
-.logo img{
+
+.logo img {
   width: 140px;
   padding: 10px;
   margin: auto;
@@ -162,25 +192,29 @@ header{
 }
 
 
-.stats{
+.stats {
   text-align: left;
   font-family: "Racing Sans One";
   display: flex;
 
 }
-.count1 h2{
+
+.count1 h2 {
   font-size: 60px;
 }
-.count2{
+
+.count2 {
   align-self: center;
 }
-.count2 h4{
+
+.count2 h4 {
   font-size: 25px;
   margin-left: 10px;
 }
-.carousel-caption{
-  left: 5%!important;
-  right: 10%!important;
+
+.carousel-caption {
+  left: 5% !important;
+  right: 10% !important;
 }
 
 .readmore {
@@ -224,19 +258,22 @@ header{
 .readmore::before {
   width: 150%;
 }
-#aboutus{
-background-image: url('./About/bgglow.png');
-background-size: cover;
-background-repeat: no-repeat;
+
+#aboutus {
+  background-image: url('./About/bgglow.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.carousel-caption{
-  bottom:8%;
+
+.carousel-caption {
+  bottom: 8%;
 }
-.carousel-caption h4{
+
+.carousel-caption h4 {
   font-size: 45px;
   font-family: "Bebas Neue", serif;
-  text-align:left ;
-  width:70%;
+  text-align: left;
+  width: 70%;
   line-height: 50px;
 
 }
@@ -247,27 +284,33 @@ background-repeat: no-repeat;
   border: 1px solid #fff;
   height: 16px !important;
 }
-.headingfixture h3{
+
+.headingfixture h3 {
   font-family: "Racing Sans One";
   color: #fff;
   margin-bottom: 0px;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.headingfixture{
+
+.headingfixture {
   background-color: #58306C;
   background-image: url('./Home/bgline.png');
   padding: 10px
 }
-.leftpara{
+
+.leftpara {
   text-align: left;
 }
-.rightpara{
+
+.rightpara {
   text-align: right;
 }
+
 /* footer */
-.footerhagtag h3{
+.footerhagtag h3 {
   font-size: 65px;
   color: #fff;
   text-transform: uppercase;
@@ -275,7 +318,8 @@ a{
   text-align: center;
   letter-spacing: 2px;
 }
-.footerhagtag h6{
+
+.footerhagtag h6 {
   font-size: 40px;
   color: #fff;
   text-transform: uppercase;
@@ -285,26 +329,29 @@ a{
   margin-top: -80px;
 }
 
-#sponor{
+#sponor {
   padding: 40px 160px 40px 40px;
   background-image: url('./partnerbg.jpg');
   background-size: cover;
   height: 320px;
 }
-.leftsponsorlogo img{
+
+.leftsponsorlogo img {
   width: 100px;
 }
-.sponsorstrip{
+
+.sponsorstrip {
   justify-content: space-between;
   display: flex;
 }
-.leftsponsortext h4
-{
+
+.leftsponsortext h4 {
   color: #fff;
-    font-family: 'Bebas Neue';
-    font-size: 36px;
+  font-family: 'Bebas Neue';
+  font-size: 36px;
 }
-.leftsponsortext h6{
+
+.leftsponsortext h6 {
   margin-top: 15px;
   color: #e2c15e;
   font-weight: 300;
@@ -312,7 +359,7 @@ a{
   font-style: italic;
 }
 
-.leftsponsortext p{
+.leftsponsortext p {
   font-size: 14px;
   margin-bottom: 0px;
   width: 60%;
@@ -320,8 +367,8 @@ a{
   font-family: 'poppins';
 }
 
-#sectinfotter{
-  padding:50px 0px 160px 0px;
+#sectinfotter {
+  padding: 50px 0px 160px 0px;
   background-image: url('./ilcbg2fotter.png');
   background-color: #37193d;
   width: 100%;
@@ -329,13 +376,15 @@ a{
   background-position: bottom;
   background-repeat: no-repeat;
 
-}.sociallinksfooter {
+}
+
+.sociallinksfooter {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin: 20px ;
+  margin: 20px;
 }
 
 .sociallinksfooter ul {
@@ -354,15 +403,18 @@ a{
   color: #fff;
   font-size: 22px;
 }
-.teamlogofooter img{
+
+.teamlogofooter img {
   width: 100px;
 }
-.teamlogofooter{
+
+.teamlogofooter {
   width: 70%;
-  margin:auto;
+  margin: auto;
   margin-top: 30px;
 }
-.copyright p{
+
+.copyright p {
   color: #fff;
   margin-top: 10px;
   font-size: 15px;
@@ -370,19 +422,21 @@ a{
   text-align: center;
   font-weight: 300;
 }
-.implinks ul li{
+
+.implinks ul li {
   color: #fff;
   font-family: 'poppins';
   font-size: 15px;
   font-weight: 400;
 }
-.implinks{
+
+.implinks {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin: 20px ;
+  margin: 20px;
 }
 
 
@@ -394,43 +448,48 @@ a{
   align-items: center;
 }
 
-.implinks li{
-  padding-right:20px;
+.implinks li {
+  padding-right: 20px;
   font-weight: 300;
 }
 
 /* newhome */
-.newscard{
+.newscard {
   background-color: #fff;
   border-radius: 15px;
 }
-.newimg img{
+
+.newimg img {
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
 
 }
 
-.newarticles{
+.newarticles {
   background-color: #37193d;
   padding: 30px 0px 30px 30px;
 }
-.news-caption{
+
+.news-caption {
   padding: 10PX 20px;
 }
 
 .owl-carousel.owl-loaded {
   padding: 0px;
 }
-.carousel-caption h4{
+
+.carousel-caption h4 {
   color: #fff;
 }
-.news-caption p{
+
+.news-caption p {
   font-size: 14px;
   font-family: 'poppins';
   color: #C49B5A;
   margin-bottom: 0px;
 }
-.news-caption h5{
+
+.news-caption h5 {
   font-size: 22px;
   line-height: 24px;
   font-family: "Bebas Neue";
@@ -438,19 +497,22 @@ a{
   font-weight: 200;
   margin-top: 10px;
 }
-.breadcrumb{
+
+.breadcrumb {
   margin-bottom: 0px;
 }
+
 .carousel-indicators button {
   border-radius: 10px !important;
 }
 
 
-.carousel-indicators button{
-  margin-left:6px!important;
+.carousel-indicators button {
+  margin-left: 6px !important;
 }
+
 .breadcrumb img {
-width: 100%;
+  width: 100%;
 }
 
 .topsectionabout {
@@ -458,13 +520,15 @@ width: 100%;
   background-size: cover;
   padding-top: 20px;
 }
-.hr{
+
+.hr {
   width: 100%;
   margin-top: 40px;
   background-color: #ffffff1d;
   height: 1px;
 }
-.aboutright h4{    
+
+.aboutright h4 {
   color: #fff;
   font-family: 'Bebas Neue';
   font-size: 74px;
@@ -472,32 +536,35 @@ width: 100%;
   line-height: 74px;
   margin-top: 20px;
 }
-.smalltext{
+
+.smalltext {
   font-size: 22px;
 }
-.aboutleft video{
+
+.aboutleft video {
   border-radius: 10px;
   width: 80%;
 }
 
-.abouttitle h4{
+.abouttitle h4 {
   text-align: center;
   color: #fff;
   font-family: 'Bebas Neue';
 
   font-size: 40px;
 }
-.abouttitle p{
- color: #fff;
- width: 64%;
- margin: auto;
- text-align: center;
- font-weight: 200;
- font-size: 17px;
- font-family: 'poppins';
+
+.abouttitle p {
+  color: #fff;
+  width: 64%;
+  margin: auto;
+  text-align: center;
+  font-weight: 200;
+  font-size: 17px;
+  font-family: 'poppins';
 }
-.centerbox img
-{
+
+.centerbox img {
   margin: auto;
   display: block;
   width: 70%;
@@ -511,7 +578,7 @@ width: 100%;
   left: 0;
   width: 100%;
   height: 100%;
-  background:linear-gradient(358deg, #2E1631 15%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(358deg, #2E1631 15%, rgba(0, 0, 0, 0) 100%);
   z-index: 1;
 }
 
@@ -523,58 +590,70 @@ width: 100%;
   color: white;
   width: 80%;
 }
-.carousel-indicators{
-  bottom: 50px!important;
+
+.carousel-indicators {
+  bottom: 50px !important;
 }
-.carousel-indicators{
+
+.carousel-indicators {
   border-radius: 20px;
 }
-.carousel-indicators button{
-  border-radius: 20px!important;
 
-  width: 5px!important;
-  height:  5px!important;
+.carousel-indicators button {
+  border-radius: 20px !important;
+
+  width: 5px !important;
+  height: 5px !important;
   background-color: #fff;
 }
-.carousel-indicators .active{
+
+.carousel-indicators .active {
   width: 16px !important;
   background-color: transparent !important;
   border: 1px solid #fff;
   height: 16px !important;
 
 }
-.carousel-indicators button{
+
+.carousel-indicators button {
   margin-top: -10px;
 }
-.carousel-indicators button .active{
-  margin-top: 0px!important;
+
+.carousel-indicators button .active {
+  margin-top: 0px !important;
 }
 
-.carousel-indicators button{
+.carousel-indicators button {
   width: 5px !important;
   background-color: #fff !important;
   border: 1px solid #fff;
-  height:5px !important;
+  height: 5px !important;
 
 }
-.banner-buttons{
+
+.banner-buttons {
   left: 5%;
   width: 40px;
-  margin-bottom: 40px!important;
+  margin-bottom: 40px !important;
 }
-.owl-prev-btn, .owl-next-btn{
+
+.owl-prev-btn,
+.owl-next-btn {
   margin-right: 10px;
-  padding: 5px 10px!important;
+  padding: 5px 10px !important;
 }
-.textimg{
+
+.textimg {
   width: 300px;
 }
 
-.aboutabtract{
+.aboutabtract {
   width: 236px;
-    margin: auto;
-    display: block;
+  margin: auto;
+  display: block;
+  float: right;
 }
+
 .aboutcontent p {
   line-height: 24px;
   color: #fff;
@@ -584,58 +663,69 @@ width: 100%;
   text-align: justify;
   font-weight: 200;
 }
-#aboutbox ,#aboutus{
+
+#aboutbox,
+#aboutus {
 
   background-color: #381a3d;
-padding: 20px 70px 30px 70px;
-background-position: bottom;
+  padding: 20px 70px 30px 70px;
+  background-position: bottom;
 }
-.teamlogoaboutus{
+
+.teamlogoaboutus {
   padding: 20px 10px;
 }
 
-.dividerstadium{
+.dividerstadium {
   padding: 20px;
-  background:#381b3d;
+  background: #381b3d;
 }
-.teamlogoaboutus{
+
+.teamlogoaboutus {
   padding: 30px 140px 60px 140px;
   background-color: #2f0f35;
 }
-.teamlogoaboutus img{
+
+.teamlogoaboutus img {
   width: 114px;
   margin: auto;
   display: block;
 }
-.title-team h4{
+
+.title-team h4 {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
   font-size: 40px;
-  margin-bottom:35px;
+  margin-bottom: 35px;
   font-family: 'Bebas Neue';
 }
 
-.owl-prev-btn, .owl-next-btn{
-  background-color: #FEFEFE!important;
-    width: 38px;
-    height: 27px;
-    display: flex;
-    padding: 3px 5px;
-    align-items: center;
-    justify-content: center;
+.owl-prev-btn,
+.owl-next-btn {
+  background-color: #FEFEFE !important;
+  width: 38px;
+  height: 27px;
+  display: flex;
+  padding: 3px 5px;
+  align-items: center;
+  justify-content: center;
 }
-.owl-prev-btn svg, .owl-next-btn svg{
-  color: #000!important;
+
+.owl-prev-btn svg,
+.owl-next-btn svg {
+  color: #000 !important;
 }
-#boxsquare{
-  background-image:url('./About/01-png.png');
+
+#boxsquare {
+  background-image: url('./About/01-png.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 50px 60px;
   background-color: #2F0F35;
 }
-.aboutmission p{
+
+.aboutmission p {
   color: #fff;
   font-family: 'poppins';
   font-size: 15px;
@@ -643,12 +733,14 @@ background-position: bottom;
   font-weight: 300;
 
 }
-.boxsquareimg{
+
+.boxsquareimg {
   width: 70%;
   margin: auto;
   display: block;
 }
-.aboutmission h4{
+
+.aboutmission h4 {
   color: #fff;
   font-size: 33px;
   text-align: left;
@@ -656,35 +748,47 @@ background-position: bottom;
   font-family: 'Bebas Neue';
   margin-bottom: 30px;
 }
-.separetaboutus{
+
+.separetaboutus {
   margin: 50px 0px;
 }
-.message img{
+
+.message img {
   width: 58%;
   margin: auto;
   display: block;
 }
-#foundermessage{
-  padding: 20px 40px;
-  background-color: #381a40;
+
+#foundermessage {
+  padding: 40px 60px;
+  background-image: url('./partnerbg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.foundercaption h5{
+
+.foundercaption h5 {
   text-transform: uppercase;
   font-family: 'Bebas Neue';
   color: #fff;
   font-size: 42px;
   letter-spacing: 1px;
 }
-.foundercaption p{
+.btn:hover{
+  background-color: #fff;
+}
+
+.foundercaption p {
   margin-top: 30px;
   color: #fff;
-  font-size: 14px;
+  font-size: 17px;
   font-family: 'poppins';
-  width: 90%;
+  width: 86%;
   text-align: justify;
   font-weight: 300;
+  line-height: 26px;
 }
-.foundercaption h6{
+
+.foundercaption h6 {
 
   text-transform: uppercase;
   font-family: 'Bebas Neue';
@@ -694,45 +798,54 @@ background-position: bottom;
   letter-spacing: 1px;
 }
 
-#photos{
+#photos {
   padding: 30px 20px;
   background-color: #381a40;
 }
-#photos img{
+
+#photos img {
   margin-bottom: 20px;
   border-radius: 10px;
 }
-.stadium-banner img{
+
+.stadium-banner img {
   width: 100%;
 }
 
 
-.highlight{
-  color:#efa73c ;
-  font-weight:500;
+.highlight {
+  color: #efa73c;
+  font-weight: 500;
 }
 
-.logoright{
+.logoright {
   margin-top: -21px;
   position: absolute;
   right: 30px;
   width: 136px;
 }
-.desktopmenu{
+
+.desktopmenu {
   display: block;
 }
-.Mobilemeni, .Mobilembox{
-  display:none
+
+.Mobilemeni,
+.Mobilembox {
+  display: none
 }
-.highlighthastag{
+
+.highlighthastag {
   color: #e2c15e;
+  text-transform: uppercase;
 }
-#centerimg{
+
+#centerimg {
   background-color: #381a40;
 }
 
 .parallax {
-  background-image: url('./About/ground.jpg'); /* Change to your image */
+  background-image: url('./About/ground.jpg');
+  /* Change to your image */
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -746,6 +859,7 @@ background-position: bottom;
   font-size: 2em;
   font-weight: bold;
 }
+
 .parallax h4 {
   padding: 50px;
   text-align: center;
@@ -756,219 +870,275 @@ background-position: bottom;
   text-align: center;
 }
 
-.centerbox img{
+.centerbox img {
   border-radius: 10px;
 }
-.desktop{
-  display: block!important;
+
+.desktop {
+  display: block !important;
 }
-.mobile{
-  display: none!important;
+
+.mobile {
+  display: none !important;
 }
+
 @media only screen and (max-width: 600px) {
-  .desktopmenu{
-    display: none!important;
+  .desktopmenu {
+    display: none !important;
   }
 
-  .desktop{
-    display: none!important;
+  .desktop {
+    display: none !important;
   }
-  .mobile{
-    display: block!important;
+
+  .mobile {
+    display: block !important;
     width: 100%;
   }
+
   .match button {
-font-size: 10px!important;
-  }
-  .footerfixture p{
-    font-size:10px!important;
+    font-size: 10px !important;
   }
 
-  header .container-fluid{
-padding: 0px;
+  .footerfixture p {
+    font-size: 10px !important;
   }
- 
-  .Mobilembox{
+
+  header .container-fluid {
+    padding: 0px;
+  }
+
+  .Mobilembox {
     display: block;
   }
+
   .socialheader ul li {
     margin-left: 10px;
   }
-  .Mobilemeni{
-    display:block;
+
+  .Mobilemeni {
+    display: block;
   }
-  body{
+
+  body {
     overflow-x: hidden;
   }
-  .newscard{
+
+  .newscard {
     margin-bottom: 20px;
   }
-  .centernavitem ul{
+
+  .centernavitem ul {
     display: none;
   }
+
   .highlights p {
     font-size: 11px;
     padding: 8px 0px;
   }
+
   .footerhagtag h3 {
-  font-size: 40px;
-}
-#sectinfotter{
-  padding:20px 10px;
-}
-.copyright p {
-  font-size: 11px;
-}
-.teamlogofooter {
-width: 100%;
-}
-.implinks ul {
-  padding-left: 0px;
-}
-.teamlogofooter{
-  margin-top: 15px;
-}
-.title-team h4 {
-  font-size: 26px;
-  margin-bottom: 25px;
-}
-.teamlogoaboutus img{
-  margin-bottom: 20px;
-}
-.bannerwidth{
-  height: 40vh;
-  z-index: 0px;
+    font-size: 40px;
+  }
 
-}
+  #sectinfotter {
+    padding: 20px 10px;
+  }
 
-.carousel-caption h4 {
-  width: 85%;
-  font-size: 30px;
-  line-height: 34px;
+  .copyright p {
+    font-size: 11px;
+  }
 
-}
-.titleweb h2{
-  margin-bottom: 20px!important;
-  font-size: 32px!important;
-  letter-spacing: 2px;
-}
-#fixture{
-  padding: 25px 15px!important;
-}
-.readmore{
-  padding: 8px 11px;
-  font-size: 11px;
-  margin-top: 10px;
-}
-.carousel-caption {
-  bottom: 4%;
-}
-#aboutbox, #aboutus{
-  padding: 20px 15px;
-}
-.aboutleft video{
-  width: 100%;
-}
-.aboutcontent p{
-  width: 100%;
-}
-.aboutright h4 {
-color: #fff;
+  .teamlogofooter {
+    width: 100%;
+  }
+
+  .implinks ul {
+    padding-left: 0px;
+  }
+
+  .teamlogofooter {
+    margin-top: 15px;
+  }
+
+  .title-team h4 {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .teamlogoaboutus img {
+    margin-bottom: 20px;
+  }
+
+  .bannerwidth {
+    height: 40vh;
+    z-index: 0px;
+
+  }
+
+  .carousel-caption h4 {
+    width: 85%;
+    font-size: 30px;
+    line-height: 34px;
+
+  }
+
+  .titleweb h2 {
+    margin-bottom: 20px !important;
+    font-size: 32px !important;
+    letter-spacing: 2px;
+  }
+
+  #fixture {
+    padding: 25px 15px !important;
+  }
+
+  .readmore {
+    padding: 8px 11px;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  .carousel-caption {
+    bottom: 4%;
+  }
+
+  #aboutbox,
+  #aboutus {
+    padding: 20px 15px;
+  }
+
+  .aboutleft video {
+    width: 100%;
+  }
+
+  .aboutcontent p {
+    width: 100%;
+  }
+  .foundercaption{
+    width: 100%;
+  }
+  .aboutright h4 {
+    color: #fff;
     font-family: 'Bebas Neue';
-    font-size: 70px;
+    font-size: 37px;
     margin-left: 20px;
-    line-height: 74px;
+    line-height: 38px;
     margin-top: 20px;
-}
-.aboutright{
-  margin-top: 20px;
-}
-.aboutright h4{
-  margin-left: 0px;
-}
-.textimg {
-  width: 120px;
-}
-.hr {
-  margin-top: 15px;
-}
-#boxsquare {
-  padding: 20px 15px;
-}
-#foundermessage {
-  padding: 20px 15px;
-}
-.foundercaption p{
-  width: 100%;
-}
-.message img {
-  width: 95%;
-  margin: auto;
-  display: block;
-}
-.aboutmission h4 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-#breadcumd {
-  height: 121px;
-}
-.caption-breadcumb h4 {
-  margin-top: 32px;
-  font-size: 24px;
-  text-align: left;
-  margin-left: 20px;
-}
-.caption-breadcumb p{
+  }
 
-  text-align: left;
-  margin-left: 20px;
-}
-.caption-breadcumb p {
-  font-size: 12px;
-}
-.bg-humburger{
-  background-color: #381a40;
-  position: absolute;
-  z-index: 9999;
-  width: 100%;
-  height: 100vh;
-}
-.bg-humburger ul li{
-  text-align: center;
-  margin-bottom: 15px;
-}
-.bg-humburger ul li a {
-  color: #fff;
-  font-family: "Bebas Neue", serif;
-  font-size: 30px;
-}
-.bg-humburger ul{
-  padding-left: 0px!important;margin-top: 30px;
-}
-.Mobilemeni{
-  display: flex;
-  padding:10px 20px;
-  background-color: #381a40;
-  justify-content: space-between;
-}
-.Mobilemeni img{
-  width: 80px;
-}
-.Mobilemeni button{
-  border: 0px;
-  background: transparent;
+  .aboutright {
+    margin-top: 20px;
+  }
 
-}
-.topsectionabout{
-  padding-top: 0px;
-}
-#photos {
-  padding: 20px 8px;
-}
-.teamlogoaboutus {
-  padding: 20px 10px;
-}
+  .aboutright h4 {
+    margin-left: 0px;
+  }
+
+  .textimg {
+    width: 120px;
+  }
+
+  .hr {
+    margin-top: 15px;
+  }
+
+  #boxsquare {
+    padding: 20px 15px;
+  }
+
+  #foundermessage {
+    padding: 20px 15px;
+  }
+
+  .foundercaption p {
+    width: 100%;
+  }
+
+  .message img {
+    width: 95%;
+    margin: auto;
+    display: block;
+  }
+
+  .aboutmission h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  #breadcumd {
+    height: 121px;
+  }
+
+  .caption-breadcumb h4 {
+    margin-top: 32px;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .caption-breadcumb p {
+
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .caption-breadcumb p {
+    font-size: 12px;
+  }
+
+  .bg-humburger {
+    background-color: #381a40;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bg-humburger ul li {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .bg-humburger ul li a {
+    color: #fff;
+    font-family: "Bebas Neue", serif;
+    font-size: 30px;
+  }
+
+  .bg-humburger ul {
+    padding-left: 0px !important;
+    margin-top: 30px;
+  }
+
+  .Mobilemeni {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #381a40;
+    justify-content: space-between;
+  }
+
+  .Mobilemeni img {
+    width: 80px;
+  }
+
+  .Mobilemeni button {
+    border: 0px;
+    background: transparent;
+
+  }
+
+  .topsectionabout {
+    padding-top: 0px;
+  }
+
+  #photos {
+    padding: 20px 8px;
+  }
+
+  .teamlogoaboutus {
+    padding: 20px 10px;
+  }
 }
 
 
@@ -979,7 +1149,8 @@ color: #fff;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #4a235a; /* Dark purple background */
+  background-color: #4a235a;
+  /* Dark purple background */
   padding: 40px;
 }
 
@@ -1050,31 +1221,31 @@ color: #fff;
 }
 
 
-.btn-primary{
+.btn-primary {
   background: #fff;
-    border: 0px;
-    width: 38px;
-    height: 27px;
+  border: 0px;
+  width: 38px;
+  height: 27px;
 }
-.foundercaption{
-  width: 85%;
-}
-.custom-nav  button{
+
+
+.custom-nav button {
   line-height: 0px;
 }
-.custom-nav svg{
+
+.custom-nav svg {
   color: #000;
   line-height: 0px
 }
 
-.centerfixturecard{
+.centerfixturecard {
   padding: 10px 15px 0px 15px;
 }
 
 
 .nav-buttons {
   display: flex;
-  gap:2px;
+  gap: 2px;
   margin-top: -40px;
   justify-content: flex-end;
 }
@@ -1089,16 +1260,18 @@ color: #fff;
   border-radius: 10px;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 0px;
 }
+
 .nav-buttons {
   display: flex;
-  gap:2px; /* Adds spacing between buttons */
+  gap: 2px;
+  /* Adds spacing between buttons */
 }
 
 
-.nav-buttons{
+.nav-buttons {
   position: absolute;
   margin-top: -76px;
   float: right;
@@ -1107,7 +1280,7 @@ color: #fff;
 
 
 
-.nav-buttons button{
+.nav-buttons button {
   background-color: #FEFEFE;
   width: 38px;
   height: 27px;
@@ -1116,132 +1289,144 @@ color: #fff;
   align-items: center;
   justify-content: center;
 }
-.nav-buttons button svg{
-color: #381A3D;
+
+.nav-buttons button svg {
+  color: #381A3D;
 }
 
 
-.fixturecard{
+.fixturecard {
   background-color: #562D5B;
   /* BORDER: 1PX SOLID #8F47B2; */
   background-image: url('./fixcard.png');
-  padding:10px 0px 0px 0px; 
+  padding: 10px 0px 0px 0px;
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-#teamshome{
+
+#teamshome {
   background-color: #381A3D;
   padding: 60px 140px 60px 140px;
 }
 
-.teamslogohome img{
-width: 114px;
-margin: auto;
-display: block;
+.teamslogohome img {
+  width: 114px;
+  margin: auto;
+  display: block;
 }
-#fixture{
+
+#fixture {
   background-color: #381A3D;
   background-image: url('./bgilc.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0px 40px 30px;
 }
-.titlefixture p{
+
+.titlefixture p {
   color: #fff;
   font-family: 'poppins';
   font-size: 12px;
   text-align: center;
 
 }
-.titlefixture h4{
+
+.titlefixture h4 {
   color: #fff;
   font-family: 'poppins';
   font-size: 12px;
   text-align: center;
   margin-top: 8px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 16px;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
-.match p{
+
+.match p {
   font-weight: 300;
   color: #fff;
   font-size: 12px;
   font-family: 'poppins';
   text-align: center;
 }
-.score h5{
+
+.score h5 {
   margin-top: 20px;
   color: #fff;
   font-family: 'Bebas Neue';
   font-size: 22px;
   text-align: center;
 }
-.score p{
+
+.score p {
   color: #fff;
   font-size: 12px;
   text-align: center;
   font-family: 'poppins';
   font-weight: 400;
 }
-.vs{
+
+.vs {
   margin-top: 15px;
   font-size: 32px;
   text-align: center;
-    color: #fff;
-    font-family: 'Bebas Neue';
+  color: #fff;
+  font-family: 'Bebas Neue';
 }
-.leftfixture img{
-  width: 80px!important;
+
+.leftfixture img {
+  width: 80px !important;
   margin: auto;
   display: block;
   font-weight: 300;
 }
-.match button
-{
+
+.match button {
 
   border: 2px solid #B0813E;
   margin-top: 20px;
-  font-size: 13px!important;
+  font-size: 13px !important;
   padding: 5px 12px;
   font-family: 'Poppins';
   border-radius: 20px;
   text-align: center;
-  margin:10px auto 0px auto;
+  margin: 10px auto 0px auto;
   display: block;
   color: #fff;
   background: #764B05;
 
 }
-.titleweb h2{
+
+.titleweb h2 {
   text-align: center;
   color: #fff;
   font-family: 'Bebas Neue';
   margin-bottom: 40px;
-  font-size: 50px!important;
+  font-size: 50px !important;
 
 }
-.owl-dots{
-  margin-top: 40px!important;
+
+.owl-dots {
+  margin-top: 40px !important;
 }
 
 
-.owl-dots .active span{
-  width: 16px!important;
-  background-color: transparent!important;
+.owl-dots .active span {
+  width: 16px !important;
+  background-color: transparent !important;
   border: 1px solid #fff;
-  height: 16px!important;
+  height: 16px !important;
 }
 
 
-.owl-dots  span{
-  width: 5px!important;
-  height:5px!important;
-  margin-top: -15px!important;
-  background-color: #969696!important;
+.owl-dots span {
+  width: 5px !important;
+  height: 5px !important;
+  margin-top: -15px !important;
+  background-color: #969696 !important;
 }
 
 
@@ -1254,6 +1439,7 @@ display: block;
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -1276,30 +1462,30 @@ display: block;
   border-radius: 10px;
 }
 
-.implinks a{
+.implinks a {
   color: #fff;
 }
+
 .founder-image img {
   border-radius: 8px;
 }
 
-#video{
-    background-color: #37193d;
-    padding: 30px 0px 50px 30px;
+#video {
+  background-color: #37193d;
+  padding: 30px 0px 50px 30px;
 }
 
 .image-container {
   position: relative;
   overflow: hidden;
-  border:1px solid #fff;
+  border: 1px solid #fff;
   border-radius: 30px;
-  height:280px; 
+  height: 280px;
 }
 
 .image-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border-radius: 10px;
 }
 
@@ -1308,7 +1494,8 @@ display: block;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50%; /* Adjust percentage for gradient height */
+  height: 50%;
+  /* Adjust percentage for gradient height */
   background: linear-gradient(to top, #562D5B, rgb(201 28 28 / 0%));
 }
 
@@ -1323,16 +1510,18 @@ display: block;
   font-family: 'Bebas Neue';
 }
 
-.arrowbg{
+.arrowbg {
   background-image: url('./Background.png');
   background-size: cover;
   background-color: #321837;
 }
-#bg-white{
+
+#bg-white {
   background-color: #fff;
   padding: 50px 100px;
 }
-.partnertitle h4{
+
+.partnertitle h4 {
   color: #47254D;
   font-size: 40px;
   text-align: center;
@@ -1341,8 +1530,8 @@ display: block;
 
 
 
-.partnertitle p{
-  margin-bottom:50px!important;
+.partnertitle p {
+  margin-bottom: 50px !important;
   color: #47254D;
   font-size: 15px;
   margin: auto;
@@ -1351,48 +1540,53 @@ display: block;
   font-family: 'poppins';
   width: 50%;
 }
-.partnertitle h5{
+
+.partnertitle h5 {
   text-align: center;
   font-family: 'Bebas Neue';
   font-size: 35px;
   margin-bottom: 40px;
   color: #47254D;
-  margin-top:40px;
+  margin-top: 40px;
 }
-.separator img{
+
+.separator img {
   margin: auto;
   display: block;
   margin-top: 30px;
   width: 44%;
 }
 
-.partentitle  h3{
+.partentitle h3 {
   font-family: 'Bebas Neue';
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-bottom: 15px;
-    color: #2E1631;
-    text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: #2E1631;
+  text-align: center;
 }
-.partentitle img{
+
+.partentitle img {
   margin: auto;
   width: 100px;
   display: block;
 }
-.footerfixture p{
+
+.footerfixture p {
   color: #fff;
   font-family: 'Poppins';
   font-size: 12px;
 }
-header .container-fluid{
+
+header .container-fluid {
   padding: 0px;
 }
-.footerfixture
-{
+
+.footerfixture {
   padding: 10px;
-    background:#764B05;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  background: #764B05;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1400,62 +1594,78 @@ header .container-fluid{
     font-size: 11px;
     width: 100%;
   }
-  .aboutabtract{
+
+  .aboutabtract {
     margin: 20px auto;
   }
-  .centerbox img{
+
+  .centerbox img {
     width: 90%;
   }
-  .centerbox img{
+
+  .centerbox img {
     margin-top: 20px;
   }
+
   .teamlogoaboutus img {
     width: 85px;
   }
-  .newarticles, #video {
+
+  .newarticles,
+  #video {
     padding: 25px 0px 20px 15px;
   }
+
   .image-container {
     height: 220px;
     border-radius: 15px;
   }
+
   .news-caption h5 {
     font-size: 17px;
     line-height: 22px;
   }
+
   .news-caption {
     padding: 10px;
   }
-  #bg-white{
+
+  #bg-white {
     padding: 20px 15px;
   }
-  .partnertitle p{
+
+  .partnertitle p {
     font-size: 22px;
   }
-  .partnertitle p{
+
+  .partnertitle p {
     width: 100%;
   }
+
   .partentitle img {
     width: 85px;
     border-radius: 10px;
   }
-  .partentitle{
+
+  .partentitle {
     margin-bottom: 15px;
   }
-  .partentitle h3{
+
+  .partentitle h3 {
     margin-bottom: 10px;
   }
+
   .partnertitle p {
     font-size: 12px;
     margin-bottom: 20px;
   }
-  .partentitle h3{
+
+  .partentitle h3 {
 
     font-size: 17px;
   }
+
   .partnertitle h5 {
     margin: 20px 0px;
   }
 }
-
-
