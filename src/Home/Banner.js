@@ -24,6 +24,32 @@ export default function Banner() {
       title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
       link: "https://www.example.com/article2",
     },
+    {
+      id: 2,
+      image: banener,
+      mobileImage: bannermob,
+      title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
+      link: "https://www.example.com/article2",
+    },
+
+    {
+      id: 2,
+      image: banener,
+      mobileImage: bannermob,
+      title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
+      link: "https://www.example.com/article2",
+    },
+
+
+    {
+      id: 2,
+      image: banener,
+      mobileImage: bannermob,
+      title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
+      link: "https://www.example.com/article2",
+    },
+
+
   ];
 
   const handlePrev = () => {
@@ -85,7 +111,7 @@ export default function Banner() {
         {slides.map((slide, idx) => (
           <button
             key={slide.id}
-            className={`carousel-indicator ${index === idx ? "active" : ""}`}
+            className={`carousel-indicator ${index === idx ? "active" : "inactive"}`}
             onClick={() => setIndex(idx)}
           />
         ))}
@@ -120,19 +146,18 @@ export default function Banner() {
 
           .carousel-indicators-container {
             position: absolute;
-            bottom: 10px;
+            bottom: 80px;
             left: 50%;
             transform: translateX(-50%);
             display: flex;
             justify-content: center;
             align-items: center;
+            z-index:999
           }
 
           .carousel-indicator {
-            width: 12px;
-            height: 12px;
+          
             margin: 0 5px;
-            background-color: rgba(255, 255, 255, 0.5);
             border-radius: 50%;
             border: none;
             cursor: pointer;

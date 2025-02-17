@@ -25,9 +25,6 @@ export default function Index() {
     <>
       <Banner />
       <Fixture />
-
-
-
       <section id="teamshome" className='arrowbg'>
         {/* Title and Buttons */}
         <div className="titleweb">
@@ -60,14 +57,10 @@ export default function Index() {
         </div>
 
       </section>
-
       <section className='stadium-banner'>
         <img src={stadium} className='img-fluid' />
-
       </section>
-
       <News />
-
       <Video />
       <Partner />
     </>
