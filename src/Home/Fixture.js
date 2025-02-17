@@ -55,7 +55,7 @@ export default function Fixture() {
           </button>
         </div>
 
-        
+
       </div>
 
       {/* Carousel */}
@@ -95,10 +95,409 @@ export default function Fixture() {
             <div className="footerfixture">
               <div className="row">
                 <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
                 </div>
                 <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
                 </div>
               </div>
             </div>
@@ -141,10 +540,56 @@ export default function Fixture() {
             <div className="footerfixture">
               <div className="row">
                 <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
                 </div>
                 <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
+                  <p  className="rightpara">March XX, 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div className="item fixturecard">
+            <div className="titlefixture">
+              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
+            </div>
+            <div className="centerfixturecard">
+              <div className="row">
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo1} className="img-fluid" alt="Team 1" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-4 align-self-start p-0">
+                  <div className="match">
+                    <button>Match Centre</button>
+                  </div>
+                  <h4 className="vs">VS</h4>
+                </div>
+                <div className="col-md-4 col-4">
+                  <div className="leftfixture">
+                    <img src={logo2} className="img-fluid" alt="Team 2" />
+                    <div className="score">
+                      <h5>XX</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footerfixture">
+              <div className="row">
+                <div className="col-md-7 col-7">
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
+                </div>
+                <div className="col-md-5 col-5">
+                  <p  className="rightpara">March XX, 2025</p>
                 </div>
               </div>
             </div>
@@ -185,98 +630,10 @@ export default function Fixture() {
             <div className="footerfixture">
               <div className="row">
                 <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
+                  <p className="leftpara">Time: XX:00 PM - XX:00 PM</p>
                 </div>
                 <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="item fixturecard">
-            <div className="titlefixture">
-              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
-            </div>
-            <div className="centerfixturecard">
-              <div className="row">
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo1} className="img-fluid" alt="Team 1" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 col-4 align-self-start p-0">
-                  <div className="match">
-                    <button>Match Centre</button>
-                  </div>
-                  <h4 className="vs">VS</h4>
-                </div>
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo2} className="img-fluid" alt="Team 2" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="footerfixture">
-              <div className="row">
-                <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
-                </div>
-                <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="item fixturecard">
-            <div className="titlefixture">
-              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
-            </div>
-            <div className="centerfixturecard">
-              <div className="row">
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo1} className="img-fluid" alt="Team 1" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 col-4 align-self-start p-0">
-                  <div className="match">
-                    <button>Match Centre</button>
-                  </div>
-                  <h4 className="vs">VS</h4>
-                </div>
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo2} className="img-fluid" alt="Team 2" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="footerfixture">
-              <div className="row">
-                <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
-                </div>
-                <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
+                  <p  className="rightpara">March XX, 2025</p>
                 </div>
               </div>
             </div>
@@ -284,182 +641,11 @@ export default function Fixture() {
 
 
 
-          <div className="item fixturecard">
-            <div className="titlefixture">
-              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
-            </div>
-            <div className="centerfixturecard">
-              <div className="row">
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo1} className="img-fluid" alt="Team 1" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 col-4 align-self-start p-0">
-                  <div className="match">
-                    <button>Match Centre</button>
-                  </div>
-                  <h4 className="vs">VS</h4>
-                </div>
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo2} className="img-fluid" alt="Team 2" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div className="footerfixture">
-              <div className="row">
-                <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
-                </div>
-                <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
 
-
-          <div className="item fixturecard">
-            <div className="titlefixture">
-              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
-            </div>
-            <div className="centerfixturecard">
-              <div className="row">
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo1} className="img-fluid" alt="Team 1" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 col-4 align-self-start p-0">
-                  <div className="match">
-                    <button>Match Centre</button>
-                  </div>
-                  <h4 className="vs">VS</h4>
-                </div>
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo2} className="img-fluid" alt="Team 2" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="footerfixture">
-              <div className="row">
-                <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
-                </div>
-                <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div className="item fixturecard">
-            <div className="titlefixture">
-              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
-            </div>
-            <div className="centerfixturecard">
-              <div className="row">
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo1} className="img-fluid" alt="Team 1" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 col-4 align-self-start p-0">
-                  <div className="match">
-                    <button>Match Centre</button>
-                  </div>
-                  <h4 className="vs">VS</h4>
-                </div>
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo2} className="img-fluid" alt="Team 2" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="footerfixture">
-              <div className="row">
-                <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
-                </div>
-                <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="item fixturecard">
-            <div className="titlefixture">
-              <h4>Rajiv Gandhi International Cricket Stadium, Dehradun</h4>
-            </div>
-            <div className="centerfixturecard">
-              <div className="row">
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo1} className="img-fluid" alt="Team 1" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 col-4 align-self-start p-0">
-                  <div className="match">
-                    <button>Match Centre</button>
-                  </div>
-                  <h4 className="vs">VS</h4>
-                </div>
-                <div className="col-md-4 col-4">
-                  <div className="leftfixture">
-                    <img src={logo2} className="img-fluid" alt="Team 2" />
-                    <div className="score">
-                      <h5>XX</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="footerfixture">
-              <div className="row">
-                <div className="col-md-7 col-7">
-                  <p>Time: XX:00 PM - XX:00 PM</p>
-                </div>
-                <div className="col-md-5 col-5">
-                  <p>March XX, 2025</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      
         </OwlCarousel>
       </div>
     </section>
