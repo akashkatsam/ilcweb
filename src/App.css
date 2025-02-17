@@ -888,278 +888,7 @@ a {
   display: none !important;
 }
 
-@media only screen and (max-width: 600px) {
-  .desktopmenu {
-    display: none !important;
-  }
-  #teamshome{
-    padding: 30px 10px 30px 10px!important;
-  }
-  .teamslogohome img{
-    width: 90px!important;
-    margin-bottom: 15px!important;
-  }
-  .nav-buttons button{
-    width: 30px!important;
-    height: 30px!important;
-    padding:4px 10px!important;
-  }
-  .nav-buttons{
-    right: 6px!important;
-  }
-  .desktop {
-    display: none !important;
-  }
 
-  .mobile {
-    display: block !important;
-    width: 100%;
-  }
-
-  .match button {
-    font-size: 10px !important;
-  }
-
-  .footerfixture p {
-    font-size: 10px !important;
-  }
-
-  header .container-fluid {
-    padding: 0px;
-  }
-
-  .Mobilembox {
-    display: block;
-  }
-
-  .socialheader ul li {
-    margin-left: 10px;
-  }
-
-  .Mobilemeni {
-    display: block;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .newscard {
-    margin-bottom: 20px;
-  }
-
-  .centernavitem ul {
-    display: none;
-  }
-
-  .highlights p {
-    font-size: 11px;
-    padding: 8px 0px;
-  }
-
-  .footerhagtag h3 {
-    font-size: 40px;
-  }
-
-  #sectinfotter {
-    padding: 20px 10px;
-  }
-
-  .copyright p {
-    font-size: 11px;
-  }
-
-  .teamlogofooter {
-    width: 100%;
-  }
-
-  .implinks ul {
-    padding-left: 0px;
-  }
-
-  .teamlogofooter {
-    margin-top: 15px;
-  }
-
-  .title-team h4 {
-    font-size: 26px;
-    margin-bottom: 25px;
-  }
-
-  .teamlogoaboutus img {
-    margin-bottom: 20px;
-  }
-
-  .bannerwidth {
-    height: 40vh;
-    z-index: 0px;
-
-  }
-
-  .carousel-caption h4 {
-    width: 90%;
-    font-size: 22px;
-    line-height: 26px;
-
-  }
-
-  .titleweb h2 {
-    margin-bottom: 20px !important;
-    font-size: 32px !important;
-    letter-spacing: 2px;
-  }
-
-  #fixture {
-    padding: 25px 15px !important;
-  }
-
-  .readmore {
-    padding: 8px 11px;
-    font-size: 11px;
-    margin-top: 10px;
-  }
-
-  .carousel-caption {
-    bottom: 4%;
-  }
-
-  #aboutbox,
-  #aboutus {
-    padding: 20px 15px;
-  }
-
-  .aboutleft video {
-    width: 100%;
-  }
-
-  .aboutcontent p {
-    width: 100%;
-  }
-  .foundercaption{
-    width: 100%;
-  }
-  .aboutright h4 {
-    color: #fff;
-    font-family: 'Bebas Neue';
-    font-size: 37px;
-    margin-left: 20px;
-    line-height: 38px;
-    margin-top: 20px;
-  }
-
-  .aboutright {
-    margin-top: 20px;
-  }
-
-  .aboutright h4 {
-    margin-left: 0px;
-  }
-
-  .textimg {
-    width: 120px;
-  }
-
-  .hr {
-    margin-top: 15px;
-  }
-
-  #boxsquare {
-    padding: 20px 15px;
-  }
-
-  #foundermessage {
-    padding: 20px 15px;
-  }
-
-  .foundercaption p {
-    width: 100%;
-  }
-
-  .message img {
-    width: 95%;
-    margin: auto;
-    display: block;
-  }
-
-  .aboutmission h4 {
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-
-  #breadcumd {
-    height: 121px;
-  }
-
-  .caption-breadcumb h4 {
-    margin-top: 32px;
-    font-size: 24px;
-    text-align: left;
-    margin-left: 20px;
-  }
-
-  .caption-breadcumb p {
-
-    text-align: left;
-    margin-left: 20px;
-  }
-
-  .caption-breadcumb p {
-    font-size: 12px;
-  }
-
-  .bg-humburger {
-    background-color: #381a40;
-    position: absolute;
-    z-index: 9999;
-    width: 100%;
-    height: 100vh;
-  }
-
-  .bg-humburger ul li {
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  .bg-humburger ul li a {
-    color: #fff;
-    font-family: "Bebas Neue", serif;
-    font-size: 30px;
-  }
-
-  .bg-humburger ul {
-    padding-left: 0px !important;
-    margin-top: 30px;
-  }
-
-  .Mobilemeni {
-    display: flex;
-    padding: 10px 20px;
-    background-color: #381a40;
-    justify-content: space-between;
-  }
-
-  .Mobilemeni img {
-    width: 80px;
-  }
-
-  .Mobilemeni button {
-    border: 0px;
-    background: transparent;
-
-  }
-
-  .topsectionabout {
-    padding-top: 0px;
-  }
-
-  #photos {
-    padding: 20px 8px;
-  }
-
-  .teamlogoaboutus {
-    padding: 20px 10px;
-  }
-}
 
 
 
@@ -1691,5 +1420,294 @@ header .container-fluid {
 
   .partnertitle h5 {
     margin: 20px 0px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .desktopmenu {
+    display: none !important;
+  }
+  #teamshome{
+    padding: 30px 10px 30px 10px!important;
+  }
+  .teamslogohome img{
+    width: 90px!important;
+    margin-bottom: 15px!important;
+  }
+  .nav-buttons button{
+    width: 30px!important;
+    height: 30px!important;
+    padding:4px 10px!important;
+  }
+  .nav-buttons{
+    right: 6px!important;
+  }
+  .desktop {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+    width: 100%;
+  }
+
+  .match button {
+    font-size: 10px !important;
+  }
+
+  .footerfixture p {
+    font-size: 10px !important;
+  }
+
+  header .container-fluid {
+    padding: 0px;
+  }
+
+  .Mobilembox {
+    display: block;
+  }
+
+  .socialheader ul li {
+    margin-left: 10px;
+  }
+
+  .Mobilemeni {
+    display: block;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .newscard {
+    margin-bottom: 20px;
+  }
+
+  .centernavitem ul {
+    display: none;
+  }
+
+  .highlights p {
+    font-size: 11px;
+    padding: 8px 0px;
+  }
+
+  .footerhagtag h3 {
+    font-size: 40px;
+  }
+
+  #sectinfotter {
+    padding: 20px 10px;
+  }
+
+  .copyright p {
+    font-size: 11px;
+  }
+
+  .teamlogofooter {
+    width: 100%;
+  }
+
+  .implinks ul {
+    padding-left: 0px;
+  }
+
+  .teamlogofooter {
+    margin-top: 15px;
+  }
+
+  .title-team h4 {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .teamlogoaboutus img {
+    margin-bottom: 20px;
+  }
+
+  .bannerwidth {
+    height: 40vh;
+    z-index: 0px;
+
+  }
+
+  .carousel-caption h4 {
+    width: 90%;
+    font-size: 22px;
+    line-height: 26px;
+
+  }
+
+  .titleweb h2 {
+    margin-bottom: 20px !important;
+    font-size: 32px !important;
+    letter-spacing: 2px;
+  }
+
+  #fixture {
+    padding: 25px 15px !important;
+  }
+
+  .readmore {
+    padding: 8px 11px;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  .carousel-caption {
+    bottom: 4%;
+  }
+
+  #aboutbox,
+  #aboutus {
+    padding: 20px 15px;
+  }
+
+  .aboutleft video {
+    width: 100%;
+  }
+
+  .aboutcontent p {
+    width: 100%;
+  }
+  .foundercaption{
+    width: 100%;
+  }
+  .aboutright h4 {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 37px;
+    margin-left: 20px;
+    line-height: 38px;
+    margin-top: 20px;
+  }
+
+  .aboutright {
+    margin-top: 20px;
+  }
+
+  .aboutright h4 {
+    margin-left: 0px;
+  }
+
+  .textimg {
+    width: 120px;
+  }
+
+  .hr {
+    margin-top: 15px;
+  }
+
+  #boxsquare {
+    padding: 20px 15px;
+  }
+
+  #foundermessage {
+    padding: 20px 15px;
+  }
+
+  .foundercaption p {
+    width: 100%;
+  }
+
+  .message img {
+    width: 95%;
+    margin: auto;
+    display: block;
+  }
+
+  .aboutmission h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  #breadcumd {
+    height: 121px;
+  }
+
+  .caption-breadcumb h4 {
+    margin-top: 32px;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .caption-breadcumb p {
+
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .caption-breadcumb p {
+    font-size: 12px;
+  }
+
+  .bg-humburger {
+    background-color: #381a40;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bg-humburger ul li {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .bg-humburger ul li a {
+    color: #fff;
+    font-family: "Bebas Neue", serif;
+    font-size: 30px;
+  }
+
+  .bg-humburger ul {
+    padding-left: 0px !important;
+    margin-top: 30px;
+  }
+
+  .Mobilemeni {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #381a40;
+    justify-content: space-between;
+  }
+
+  .Mobilemeni img {
+    width: 80px;
+  }
+
+  .Mobilemeni button {
+    border: 0px;
+    background: transparent;
+
+  }
+
+  .topsectionabout {
+    padding-top: 0px;
+  }
+
+  #photos {
+    padding: 20px 8px;
+  }
+
+  .stump,.stump2{
+    display: none;
+  }
+  .nav-buttons{
+    margin-top: -58px;
+  }
+  .owl-dots {
+    margin-top: 18px;
+  }
+  .titleweb h2{
+    text-align: left;
+  }
+  .title-team h4{
+    text-align: left;
+  }
+  .teamlogoaboutus {
+    padding: 20px 10px;
   }
 }
