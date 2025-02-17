@@ -146,7 +146,7 @@ export default function Banner() {
 
           .carousel-indicators-container {
             position: absolute;
-            bottom: 80px;
+            bottom: 100px;
             left: 50%;
             transform: translateX(-50%);
             display: flex;
