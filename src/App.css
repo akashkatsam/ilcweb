@@ -1004,7 +1004,6 @@ a {
 }
 
 .nav-buttons button {
-  background: #007bff;
   color: white;
   border: none;
   padding: 5px 15px;
@@ -1429,7 +1428,7 @@ header .container-fluid {
     display: none !important;
   }
   #teamshome{
-    padding: 30px 10px 30px 10px!important;
+    padding: 30px 15px 30px 15px!important;
   }
   .teamslogohome img{
     width: 90px!important;
@@ -1437,8 +1436,8 @@ header .container-fluid {
   }
   .nav-buttons button{
     width: 30px!important;
-    height: 30px!important;
-    padding:4px 10px!important;
+    height: 25px!important;
+    padding:4px 7px!important;
   }
   .nav-buttons{
     right: 6px!important;
@@ -1533,15 +1532,24 @@ header .container-fluid {
   }
 
   .carousel-caption h4 {
-    width: 90%;
+    width: 94%;
     font-size: 22px;
     line-height: 26px;
 
   }
+  .owl-prev-btn, .owl-next-btn {
+    background-color: #FEFEFE !important;
+    width: 22px;
+    height: 17px;
+    display: flex;
+    padding: 3px 5px !important;
+    align-items: center;
+    justify-content: center;
+}
 
   .titleweb h2 {
     margin-bottom: 20px !important;
-    font-size: 32px !important;
+    font-size: 26px !important;
     letter-spacing: 2px;
   }
 
@@ -1696,10 +1704,13 @@ header .container-fluid {
     display: none;
   }
   .nav-buttons{
-    margin-top: -58px;
+    margin-top: -55px;
+  }
+  .carousel-indicators-container{
+    display: none!important;
   }
   .owl-dots {
-    margin-top: 18px;
+    margin-top: 18px!important;
   }
   .titleweb h2{
     text-align: left;
