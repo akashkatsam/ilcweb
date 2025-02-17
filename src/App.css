@@ -892,7 +892,21 @@ a {
   .desktopmenu {
     display: none !important;
   }
-
+  #teamshome{
+    padding: 30px 10px 30px 10px!important;
+  }
+  .teamslogohome img{
+    width: 90px!important;
+    margin-bottom: 15px!important;
+  }
+  .nav-buttons button{
+    width: 30px!important;
+    height: 30px!important;
+    padding:4px 10px!important;
+  }
+  .nav-buttons{
+    right: 6px!important;
+  }
   .desktop {
     display: none !important;
   }
