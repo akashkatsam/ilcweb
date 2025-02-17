@@ -45,7 +45,7 @@ export default function Fixture() {
       {/* Title and Buttons */}
       <div className="titleweb">
         <h2>
-          <img src={stump} className="img-fluid" alt="stump" /> Fixture
+          <img src={stump} className="img-fluid stump" alt="stump" /> Fixture
         </h2>
         {/* Custom Next/Prev Buttons */}
         <div className="nav-buttons">

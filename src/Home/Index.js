@@ -32,7 +32,7 @@ export default function Index() {
         {/* Title and Buttons */}
         <div className="titleweb">
           <h2>
-            <img src={stump} className="img-fluid" alt="stump" /> Team
+            <img src={stump} className="img-fluid stump2" alt="stump" /> Team
           </h2>
         </div>
 

@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import aa from '../Images/Teams/aa.png'
-import al from '../Images/Teams/al.png'
-import as from '../Images/Teams/as.png'
-import ch from '../Images/Teams/ch.png'
-import eg from '../Images/Teams/eg.png'
-import iw from '../Images/Teams/iw.png'
-import tt from '../Images/Teams/tt.png'
+
+
+import logo1 from '../About/Teamilc/1.png'
+import logo2 from '../About/Teamilc/2.png'
+import logo4 from '../About/Teamilc/4.png'
+import logo5 from '../About/Teamilc/5.png'
+import logo6 from '../About/Teamilc/6.png'
+import logo3 from '../About/Teamilc/3.png'
 import logosony from './sonylogo.png'
 import v3 from './3.mp4'
 import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
@@ -67,31 +68,31 @@ export default function Footer() {
                         <div className='teamlogofooter'>
                             <div className='row'>
                                 <div className='col-2'>
-                                    <img src={aa}  className='img-fluid'/>
+                                    <img src={logo1}  className='img-fluid'/>
                                 </div>
 
                                 <div className='col-2'>
-                                    <img src={al}  className='img-fluid'/>
-                                </div>
-
-
-                                <div className='col-2'>
-                                    <img src={as}  className='img-fluid'/>
+                                    <img src={logo2}  className='img-fluid'/>
                                 </div>
 
 
                                 <div className='col-2'>
-                                    <img src={ch}  className='img-fluid'/>
+                                    <img src={logo3}  className='img-fluid'/>
                                 </div>
 
 
                                 <div className='col-2'>
-                                    <img src={eg}  className='img-fluid'/>
+                                    <img src={logo4}  className='img-fluid'/>
                                 </div>
 
 
                                 <div className='col-2'>
-                                    <img src={tt}  className='img-fluid'/>
+                                    <img src={logo5}  className='img-fluid'/>
+                                </div>
+
+
+                                <div className='col-2'>
+                                    <img src={logo6}  className='img-fluid'/>
                                 </div>
                             </div>
                         </div>

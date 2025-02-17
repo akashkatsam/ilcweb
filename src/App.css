@@ -3,8 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/neusharp');
 
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
 p{
   margin-bottom: 0px;
+}
+.stump{
+  margin-left: -62px;
+  margin-top: -23px;
+  position: absolute;
+
+}
+
+.stump2{
+  width: 77px;
+  margin-left: -70px;
+  margin-top: -23px;
+  position: absolute;
+
 }
 
 .row{
@@ -1114,7 +1132,7 @@ color: #381A3D;
 }
 #teamshome{
   background-color: #381A3D;
-  padding: 40px 140px 60px 140px;
+  padding: 60px 140px 60px 140px;
 }
 
 .teamslogohome img{
@@ -1127,7 +1145,7 @@ display: block;
   background-image: url('./bgilc.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 40px 0px 40px 30px;
+  padding: 60px 0px 40px 30px;
 }
 .titlefixture p{
   color: #fff;
