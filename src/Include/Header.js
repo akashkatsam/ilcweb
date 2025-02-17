@@ -106,8 +106,23 @@ export default function Header() {
 
 
                                 <li>
+                                    
+                                    <Link to="/media" onClick={closeMenu}>
+                                    Matches
+                                    </Link>
+                                </li>
+
+
+                                <li>
                                 <Link to="/photos" onClick={closeMenu}>
                                     Gallery
+                                    </Link>
+                                </li>
+
+                                
+                                <li>
+                                <Link to="/photos" onClick={closeMenu}>
+                                    Contact
                                     </Link>
                                 </li>
 

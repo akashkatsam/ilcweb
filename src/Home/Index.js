@@ -28,7 +28,7 @@ export default function Index() {
 
 
 
-      <section id="teamshome">
+      <section id="teamshome" className='arrowbg'>
         {/* Title and Buttons */}
         <div className="titleweb">
           <h2>

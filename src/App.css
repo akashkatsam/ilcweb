@@ -102,8 +102,8 @@ position: relative;
   color: #fff;
    font-family: "Bebas Neue";
    letter-spacing: 1px;
-font-size: 18px;
-margin-left: 64px;
+font-size: 20px;
+margin-left: 70px;
 
 }
 .centernavitem a
@@ -1339,13 +1339,13 @@ display: block;
   font-size: 35px;
   margin-bottom: 40px;
   color: #47254D;
-  margin-top: 30px;
+  margin-top:40px;
 }
 .separator img{
   margin: auto;
   display: block;
-  margin-top: 40px;
-  width: 60%;
+  margin-top: 30px;
+  width: 44%;
 }
 
 .partentitle  h3{
