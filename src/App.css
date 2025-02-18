@@ -263,6 +263,7 @@ header {
   background-image: url('./About/bgglow.png');
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 40px ;
 }
 
 .carousel-caption {
@@ -1363,10 +1364,7 @@ header .container-fluid {
     width: 85px;
   }
 
-  .newarticles,
-  #video {
-    padding: 25px 0px 20px 15px;
-  }
+  
 
   .image-container {
     height: 220px;
@@ -1374,7 +1372,7 @@ header .container-fluid {
   }
 
   .news-caption h5 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 22px;
   }
 
@@ -1569,7 +1567,8 @@ header .container-fluid {
 
   #aboutbox,
   #aboutus {
-    padding: 20px 15px;
+    padding: 20px 10px;
+    float: initial;
   }
 
   .aboutleft video {
@@ -1597,6 +1596,7 @@ header .container-fluid {
 
   .aboutright h4 {
     margin-left: 0px;
+    float: left;
   }
 
   .textimg {
@@ -1617,6 +1617,7 @@ header .container-fluid {
 
   .foundercaption p {
     width: 100%;
+    font-size: 14px;
   }
 
   .message img {
@@ -1720,5 +1721,13 @@ header .container-fluid {
   }
   .teamlogoaboutus {
     padding: 20px 10px;
+  }
+  .banner-buttons {
+    top: 43%!important;
+  }
+
+  .newarticles
+ {
+    padding: 25px 0px 20px 15px;
   }
 }

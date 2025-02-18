@@ -196,7 +196,7 @@ export default function Index() {
 
       <section className='teamlogoaboutus'>
         <div className='title-team'>
-          <h4>Our Teams</h4>
+          <h4 className="text-center">Our Teams</h4>
         </div>
         <div className='row'>
           <div className='col-md-2 col-4'>

@@ -105,12 +105,12 @@ export default function Header() {
                                 </li>
 
 
-                                <li>
+                                {/* <li>
                                     
                                     <Link to="/media" onClick={closeMenu}>
                                     Matches
                                     </Link>
-                                </li>
+                                </li> */}
 
 
                                 <li>
@@ -120,11 +120,11 @@ export default function Header() {
                                 </li>
 
                                 
-                                <li>
+                                {/* <li>
                                 <Link to="/photos" onClick={closeMenu}>
                                     Contact
                                     </Link>
-                                </li>
+                                </li> */}
 
                                 <img src={logoright}  className='img-fluid logoright'/>
 

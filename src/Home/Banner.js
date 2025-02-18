@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,6 +8,23 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export default function Banner() {
   const [index, setIndex] = useState(0);
+
+  const [data, setData] = useState(null);
+  console.log(data,"akash")
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch("https://ilc-dev.katsammedia.com/api/resource/ILC%20Banner?fields=[%22*%22]")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => setData(data))
+      .catch((error) => setError(error.message));
+  }, []);
+
 
   const slides = [
     {
@@ -22,7 +39,7 @@ export default function Banner() {
       image: banener,
       mobileImage: bannermob,
       title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
-      link: "https://www.example.com/article2",
+      link: "https://www.khaleejtimes.com/sports/cricket/south-african-legend-gibbs-in-dubai-to-promote-intercontinental-legends-championship",
     },
     {
       id: 2,
@@ -107,7 +124,7 @@ export default function Banner() {
       </Carousel>
 
       {/* Custom Indicators */}
-      <div className="carousel-indicators-container">
+      {/* <div className="carousel-indicators-container">
         {slides.map((slide, idx) => (
           <button
             key={slide.id}
@@ -115,7 +132,7 @@ export default function Banner() {
             onClick={() => setIndex(idx)}
           />
         ))}
-      </div>
+      </div> */}
 
       <style>
         {`
