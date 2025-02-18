@@ -8,15 +8,12 @@ import logo3 from "../About/Teamilc/3.png";
 import logo4 from "../About/Teamilc/4.png";
 import logo5 from "../About/Teamilc/5.png";
 import logo6 from "../About/Teamilc/6.png";
-
 import stump from "../stump.svg";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-
 export default function Fixture() {
   const carouselRef = useRef(null);
-
   const goToPrev = () => {
     if (carouselRef.current) {
       carouselRef.current.prev();
@@ -32,7 +29,7 @@ export default function Fixture() {
   const options = {
     loop: true,
     margin: 20,
-    nav: false, // ❌ Disable default nav (we use custom buttons)
+    nav: false, 
     dots: true,
     autoplay: true,
     autoplayTimeout: 5000,

@@ -671,7 +671,13 @@ a {
   font-weight: 200;
 }
 
-#aboutbox,
+#aboutbox
+{
+
+  background-color: #381a3d;
+  padding: 0px 70px 30px 70px;
+  background-position: bottom;
+}
 #aboutus {
 
   background-color: #381a3d;

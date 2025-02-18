@@ -8,11 +8,8 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export default function Banner() {
   const [index, setIndex] = useState(0);
-
   const [data, setData] = useState(null);
-  console.log(data,"akash")
   const [error, setError] = useState(null);
-
   useEffect(() => {
     fetch("https://ilc-dev.katsammedia.com/api/resource/ILC%20Banner?fields=[%22*%22]")
       .then((response) => {
@@ -24,8 +21,6 @@ export default function Banner() {
       .then((data) => setData(data))
       .catch((error) => setError(error.message));
   }, []);
-
-
   const slides = [
     {
       id: 1,
