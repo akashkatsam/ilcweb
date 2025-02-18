@@ -32,7 +32,7 @@ export default function Banner() {
       image: banener,
       mobileImage: bannermob,
       title: "Intercontinental Legends Championship Trophy unveiled in Dubai",
-      link: "https://www.example.com/article1",
+      link: "https://www.aninews.in/news/sports/cricket/intercontinental-legends-championship-trophy-unveiled-in-dubai20250208232112/",
     },
     {
       id: 2,
@@ -41,31 +41,7 @@ export default function Banner() {
       title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
       link: "https://www.khaleejtimes.com/sports/cricket/south-african-legend-gibbs-in-dubai-to-promote-intercontinental-legends-championship",
     },
-    {
-      id: 2,
-      image: banener,
-      mobileImage: bannermob,
-      title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
-      link: "https://www.example.com/article2",
-    },
-
-    {
-      id: 2,
-      image: banener,
-      mobileImage: bannermob,
-      title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
-      link: "https://www.example.com/article2",
-    },
-
-
-    {
-      id: 2,
-      image: banener,
-      mobileImage: bannermob,
-      title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
-      link: "https://www.example.com/article2",
-    },
-
+   
 
   ];
 
