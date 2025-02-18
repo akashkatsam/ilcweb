@@ -1,16 +1,21 @@
 import React from 'react'
-import img1 from './trophy/01.jpg'
-import img2 from './trophy/02.jpg'
-import img3 from './trophy/03.jpg'
-import img4 from './trophy/04.jpg'
-import img5 from './trophy/05.jpg'
-import img6 from './trophy/06.jpg'
-import img7 from './trophy/07.jpg'
-import img8 from './trophy/08.jpg'
-import img9 from './trophy/09.jpg'
-import img10 from './trophy/10.jpg'
-import img11 from './trophy/11.jpg'
-import img12 from './trophy/12.jpg'
+import img1 from './ILC IMAGES/ILC 01.jpg'
+import img2 from './ILC IMAGES/ILC 02.jpg'
+import img3 from './ILC IMAGES/ILC-03.jpg'
+import img4 from './ILC IMAGES/ILC-04.jpg'
+import img5 from './ILC IMAGES/ILC-05.jpg'
+import img6 from './ILC IMAGES/ILC-06.jpg'
+import img7 from './ILC IMAGES/ILC-07.jpg'
+import img8 from './ILC IMAGES/ILC-08.jpg'
+import img9 from './ILC IMAGES/ILC-09.jpg'
+import img10 from './ILC IMAGES/ILC-10.jpg'
+import img11 from './ILC IMAGES/ILC-11.jpg'
+import img12 from './ILC IMAGES/ILC-12.jpg'
+import img13 from './ILC IMAGES/ILC-13.jpg'
+import img14 from './ILC IMAGES/ILC-14.jpg'
+import img15 from './ILC IMAGES/ILC-15.jpg'
+import img16 from './ILC IMAGES/ILC-16.jpg'
+
 export default function Gallery() {
   return (
  <>
@@ -86,11 +91,47 @@ export default function Gallery() {
                 <img src={img11} className='img-fluid' />
             </div>
 
-            </div><div className='col-md-4'>
+            </div>
+            
+            <div className='col-md-4'>
             <div className='iplcimg'>
                 <img src={img12} className='img-fluid' />
             </div>
         </div>
+
+
+        <div className='col-md-4'>
+            <div className='iplcimg'>
+                <img src={img13} className='img-fluid' />
+            </div>
+        </div>
+
+        <div className='col-md-4'>
+            <div className='iplcimg'>
+                <img src={img14} className='img-fluid' />
+            </div>
+        </div>
+
+        <div className='col-md-4'>
+            <div className='iplcimg'>
+                <img src={img15} className='img-fluid' />
+            </div>
+        </div>
+
+
+        <div className='col-md-4'>
+            <div className='iplcimg'>
+                <img src={img16} className='img-fluid' />
+            </div>
+        </div>
+
+
+
+
+
+
+
+
     </div>
 </div>
    </section>
