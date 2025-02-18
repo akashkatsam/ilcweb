@@ -6,7 +6,7 @@ import team4 from './4.jpg'
 import team5 from './5.jpg'
 import team7 from './7.jpg'
 
-
+import team from './teambanner.jpg'
 export default function Team() {
   return (
    <>
@@ -30,7 +30,7 @@ export default function Team() {
    </section>
    
    <section id="teampage">
-<div className='row'>
+{/* <div className='row'>
     <div className='col-md-3 col-12'>
         <div className='teamimg'>
             <img src={team1} className='img-fluid' />
@@ -72,7 +72,9 @@ export default function Team() {
         <div className='teamimg'>
             <img src={team7} className='img-fluid' />
         </div>
-    </div></div>
+    </div></div> */}
+
+    <img src={team} className='img-fluid' />
     </section>
    </>
   )

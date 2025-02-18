@@ -22,7 +22,6 @@ export default function News() {
       carouselRef.current.next();
     }
   };
-
   const options = {
     loop: true,
     margin: 20,
@@ -98,3 +97,5 @@ export default function News() {
     </section>
   )
 }
+
+

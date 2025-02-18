@@ -21,6 +21,8 @@ import abtract from './aboutpartner.png'
 import left from './leftaboutimg.png'
 import videobox from './ILC - Introductory Video - Thumbnail (1).jpg'
 import FounderSlider from "./FounderCard";
+import stats from './stats (1).jpg'
+import stadium from './stadium (3).jpg'
 
 export default function Index() {
   useEffect(() => {
@@ -151,7 +153,7 @@ export default function Index() {
 
 
       <section id='centerimg'>
-        <img src={center} className='img-fluid' />
+        <img src={stats} className='img-fluid' />
       </section>
       <div className="dividerstadium"></div>
 
@@ -194,6 +196,10 @@ export default function Index() {
         </div> */}
       </section>
 
+
+      
+      
+
       <section className='teamlogoaboutus'>
         <div className='title-team'>
           <h4 className="text-center">Our Teams</h4>
@@ -219,6 +225,8 @@ export default function Index() {
           </div>
         </div>
       </section>
+
+
 
 
       <FounderSlider/>
@@ -264,7 +272,9 @@ export default function Index() {
         </div>
       </section> */}
 
-
+<section id='centerimg'>
+        <img src={stadium} className='img-fluid' />
+      </section>
       <div className="bg-purple-900 text-white p-10 flex justify-center">
 
       </div>

@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import bannermob from "./bannermob.jpg";
 import banener from "./ILC website banner ed1.jpg";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
-
+import banner2 from './front-banner (2).jpg'
 export default function Banner() {
   const [index, setIndex] = useState(0);
   const [data, setData] = useState(null);
@@ -31,7 +31,7 @@ export default function Banner() {
     },
     {
       id: 2,
-      image: banener,
+      image: banner2,
       mobileImage: bannermob,
       title: "South African legend Gibbs in Dubai to promote Intercontinental Legends Championship",
       link: "https://www.khaleejtimes.com/sports/cricket/south-african-legend-gibbs-in-dubai-to-promote-intercontinental-legends-championship",

@@ -12,19 +12,26 @@ import logo5 from '../About/Teamilc/5.png'
 import logo6 from '../About/Teamilc/6.png'
 import logo3 from '../About/Teamilc/3.png'
 import mvp from '../About/mvplogo.png'
-import stadium from './Leauge-BG.jpg'
+// import stadium from './Leauge-BG.jpg'
 import stump from "../stump.svg";
 import ilcvideo from '../About/videolast.mp4'
 import text from '../About/text.png'
 import Fixture from './Fixture';
 import Video from './Video';
 import Partner from './Partner';
+import stadium from '../About/stadium (3).jpg'
+import stats from '../About/stats (1).jpg'
+
 
 export default function Index() {
   return (
     <>
       <Banner />
       <Fixture />
+
+      {/* <section className='stadium-banner'>
+        <img src={stats} className='img-fluid' />
+      </section> */}
       <section id="teamshome" className='arrowbg'>
         {/* Title and Buttons */}
         <div className="titleweb">
@@ -60,6 +67,8 @@ export default function Index() {
       <section className='stadium-banner'>
         <img src={stadium} className='img-fluid' />
       </section>
+
+    
       <News />
       <Video />
       <Partner />

@@ -802,7 +802,6 @@ a {
 }
 
 .foundercaption h6 {
-text-align: center;
   text-transform: uppercase;
   font-family: 'Bebas Neue';
   color: #fff;
@@ -1751,4 +1750,8 @@ header .container-fluid {
  {
     padding: 25px 0px 20px 15px;
   }
+  
+.foundercaption h6 {
+  text-align: center;
+}
 }
