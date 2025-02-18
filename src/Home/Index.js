@@ -13,7 +13,7 @@ import logo6 from '../About/Teamilc/6.png'
 import logo3 from '../About/Teamilc/3.png'
 import mvp from '../About/mvplogo.png'
 import stadium from './Leauge-BG.jpg'
-import stump from './stump2.svg'
+import stump from "../stump.svg";
 import ilcvideo from '../About/videolast.mp4'
 import text from '../About/text.png'
 import Fixture from './Fixture';

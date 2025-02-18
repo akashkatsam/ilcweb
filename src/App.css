@@ -263,7 +263,7 @@ header {
   background-image: url('./About/bgglow.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 40px ;
+  padding-top: 60px!important ;
 }
 
 .carousel-caption {
@@ -796,7 +796,7 @@ a {
 }
 
 .foundercaption h6 {
-
+text-align: center;
   text-transform: uppercase;
   font-family: 'Bebas Neue';
   color: #fff;
@@ -1350,6 +1350,7 @@ header .container-fluid {
 
   .aboutabtract {
     margin: 20px auto;
+    float: initial;
   }
 
   .centerbox img {
@@ -1565,12 +1566,26 @@ header .container-fluid {
     bottom: 4%;
   }
 
-  #aboutbox,
-  #aboutus {
+  #aboutbox
+   {
     padding: 20px 10px;
     float: initial;
   }
 
+  #aboutus{
+    padding: 20px 16px;
+    
+  }
+  .foundercaption h5{
+    text-align: center;
+    font-size: 22px;
+  }
+  .foundercaption h6{
+    font-size: 18px;
+  }
+  .foundercaption p{
+    margin-top: 10px;
+  }
   .aboutleft video {
     width: 100%;
   }
@@ -1612,7 +1627,7 @@ header .container-fluid {
   }
 
   #foundermessage {
-    padding: 20px 15px;
+    padding:40px 15px;
   }
 
   .foundercaption p {
