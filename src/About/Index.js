@@ -229,7 +229,7 @@ export default function Index() {
 
 
 
-      <FounderSlider/>
+      {/* <FounderSlider/> */}
 
       {/* <section id='foundermessage'>
         <div className='message'>
@@ -273,7 +273,7 @@ export default function Index() {
       </section> */}
 
 <section id='centerimg'>
-        <img src={stadium} className='img-fluid' />
+        <img src={stadium} className='img-fluid about-stadium' />
       </section>
       <div className="bg-purple-900 text-white p-10 flex justify-center">
 

@@ -820,7 +820,7 @@ a {
   border-radius: 10px;
 }
 
-.stadium-banner img {
+.stadium-banner > .stadium-image {
   width: 100%;
 }
 
@@ -1088,6 +1088,9 @@ a {
   padding: 60px 0px 40px 30px;
 }
 
+.about-stadium{
+  width:100%;
+}
 .titlefixture p {
   color: #fff;
   font-family: 'poppins';

@@ -67,10 +67,10 @@ export default function Index() {
       <section className='stadium-banner'>
         <div className="titleweb titleweb-stadium">
           <h2>
-            Venue & Date
+            <img src={stump} className="img-fluid stump2" alt="stump" /> Venue & Date
           </h2>
         </div>
-        <img src={stadium} className='img-fluid' />
+        <img src={stadium} className='img-fluid stadium-image' />
       </section>
 
     
