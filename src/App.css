@@ -824,6 +824,13 @@ a {
   width: 100%;
 }
 
+.stadium-banner{
+  background-color: #37193d;
+  padding: 30px 0px 0px 0px;
+}
+
+
+
 
 .highlight {
   color: #efa73c;
@@ -1230,7 +1237,7 @@ a {
 
 #video {
   background-color: #37193d;
-  padding: 30px 0px 50px 30px;
+  padding: 60px 0px 40px 30px;
 }
 
 .image-container {
@@ -1348,6 +1355,21 @@ header .container-fluid {
 }
 
 @media only screen and (max-width: 600px) {
+
+  .owl-item{
+    width: 380px;
+  }
+  #video{
+    padding:30px 15px 30px 15px!important;
+  }
+
+  .titleweb-stadium{
+    margin-left: 3%;
+  }
+  .teamslogo-css{
+    margin-left: -7%;
+    margin-right: -6%;
+  }
   .abouttitle p {
     font-size: 11px;
     width: 100%;

@@ -40,7 +40,7 @@ export default function Index() {
           </h2>
         </div>
 
-        <div className='teamslogohome'>
+        <div className='teamslogohome teamslogo-css'>
           <div className='row'>
             <div className='col-md-2 col-4'>
               <img src={logo1} className='img-fluid' />
@@ -65,6 +65,11 @@ export default function Index() {
 
       </section>
       <section className='stadium-banner'>
+        <div className="titleweb titleweb-stadium">
+          <h2>
+            Venue & Date
+          </h2>
+        </div>
         <img src={stadium} className='img-fluid' />
       </section>
 
