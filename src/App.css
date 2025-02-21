@@ -1458,6 +1458,9 @@ header .container-fluid {
 
 
 @media only screen and (max-width: 600px) {
+  html{
+    overflow-x: hidden;
+  }
   .desktopmenu {
     display: none !important;
   }
