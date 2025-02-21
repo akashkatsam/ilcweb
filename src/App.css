@@ -1585,7 +1585,7 @@ header .container-fluid {
     height: 28px;
     display: flex;
     border-radius: 5px!important;
-    padding: 3px 5px !important;
+    padding: 3px 9px !important;
     align-items: center;
     justify-content: center;
 }
