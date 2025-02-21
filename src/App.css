@@ -1176,7 +1176,7 @@ a {
   color: #fff;
   font-family: 'Bebas Neue';
   margin-bottom: 40px;
-  font-size: 50px !important;
+  font-size:40px !important;
 
 }
 
@@ -1473,10 +1473,11 @@ header .container-fluid {
     margin-bottom: 15px!important;
   }
   .nav-buttons button{
-    width: 30px!important;
-    height: 25px!important;
-    padding:4px 7px!important;
-  }
+    width: 38px !important;
+    height: 30px !important;
+    padding: 4px 3px !important;
+    border-radius: 6px;
+}
   .nav-buttons{
     right: 6px!important;
   }
@@ -1754,9 +1755,15 @@ header .container-fluid {
   #photos {
     padding: 20px 8px;
   }
+  .titleweb span{
+    margin-left: 30px;
+  }
 
   .stump,.stump2{
-    display: none;
+    margin-left: -6px;
+    margin-top: -12px;
+    position: absolute;
+    width: 41px;
   }
   .nav-buttons{
     margin-top: -55px;

@@ -47,6 +47,8 @@ export default function News() {
   return (
     <section className='newarticles'>
       <div class="title-team"><h4>News & Announcement</h4>
+
+      
         <div className="nav-buttons">
           <button className="owl-prev-btn" onClick={goToPrev}><FaArrowLeftLong />
           </button>

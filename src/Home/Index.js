@@ -36,7 +36,7 @@ export default function Index() {
         {/* Title and Buttons */}
         <div className="titleweb">
           <h2>
-            <img src={stump} className="img-fluid stump2" alt="stump" /> Team
+            <img src={stump} className="img-fluid stump2" alt="stump" /><span>Teams</span> 
           </h2>
         </div>
 
@@ -67,7 +67,7 @@ export default function Index() {
       <section className='stadium-banner'>
         <div className="titleweb titleweb-stadium">
           <h2>
-            <img src={stump} className="img-fluid stump2" alt="stump" /> Venue & Date
+            <img src={stump} className="img-fluid stump2" alt="stump" /> <span>Venue & Date</span>
           </h2>
         </div>
         <img src={stadium} className='img-fluid stadium-image' />
