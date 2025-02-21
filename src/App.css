@@ -1581,9 +1581,10 @@ header .container-fluid {
   }
   .owl-prev-btn, .owl-next-btn {
     background-color: #FEFEFE !important;
-    width: 22px;
-    height: 17px;
+    width: 36px;
+    height: 28px;
     display: flex;
+    border-radius: 5px!important;
     padding: 3px 5px !important;
     align-items: center;
     justify-content: center;
@@ -1736,7 +1737,7 @@ header .container-fluid {
 
   .Mobilemeni {
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: #381a40;
     justify-content: space-between;
   }
