@@ -1,10 +1,4 @@
 import React from 'react'
-import team1 from './1.png'
-import team2 from './2.jpg'
-import team3 from './3.jpg'
-import team4 from './4.jpg'
-import team5 from './5.jpg'
-import team7 from './7.jpg'
 
 import team from './teambanner.jpg'
 export default function Team() {

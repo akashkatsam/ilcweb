@@ -4,13 +4,13 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa'
 import Footer from '../Include/Footer';
 import Banner from './Banner';
 import News from './News';
-import logo1 from '../About/Teamilc/1.png'
-import logo2 from '../About/Teamilc/2.png'
-// import logo3 from '../About/Teamilc/3.png'
-import logo4 from '../About/Teamilc/4.png'
-import logo5 from '../About/Teamilc/5.png'
-import logo6 from '../About/Teamilc/6.png'
-import logo3 from '../About/Teamilc/3.png'
+import logo1 from '../Team/1.png'
+import logo2 from '../Team/2.png'
+// import logo3 from '../Team/3.png'
+import logo4 from '../Team/4.png'
+import logo5 from '../Team/5.png'
+import logo6 from '../Team/6.png'
+import logo3 from '../Team/3.png'
 import mvp from '../About/mvplogo.png'
 // import stadium from './Leauge-BG.jpg'
 import stump from "../stump.svg";
@@ -19,7 +19,7 @@ import text from '../About/text.png'
 import Fixture from './Fixture';
 import Video from './Video';
 import Partner from './Partner';
-import stadium from '../About/stadium (3).jpg'
+import stadium from './stadiumnew.png'
 import stats from '../About/stats (1).jpg'
 
 
@@ -33,7 +33,6 @@ export default function Index() {
         <img src={stats} className='img-fluid' />
       </section> */}
       <section id="teamshome" className='arrowbg'>
-        {/* Title and Buttons */}
         <div className="titleweb">
           <h2>
             <img src={stump} className="img-fluid stump2" alt="stump" /><span>Teams</span> 
@@ -65,12 +64,8 @@ export default function Index() {
 
       </section>
       <section className='stadium-banner'>
-        <div className="titleweb titleweb-stadium">
-          <h2>
-            <img src={stump} className="img-fluid stump2" alt="stump" /> <span>Venue & Date</span>
-          </h2>
-        </div>
-        <img src={stadium} className='img-fluid stadium-image' />
+       
+        <img src="https://ilc-20.vercel.app/static/media/centernew.097ccf1e66d418dce9cd.png" className='img-fluid stadium-image' />
       </section>
 
     

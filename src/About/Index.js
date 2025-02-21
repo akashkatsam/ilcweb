@@ -152,9 +152,7 @@ export default function Index() {
 
 
 
-      <section id='centerimg'>
-        <img src={stats} className='img-fluid' />
-      </section>
+ 
       <div className="dividerstadium"></div>
 
 
@@ -228,7 +226,9 @@ export default function Index() {
 
 
 
-
+      <section id='centerimg'>
+        <img src={stats} className='img-fluid' />
+      </section>
       {/* <FounderSlider/> */}
 
       {/* <section id='foundermessage'>
@@ -272,9 +272,9 @@ export default function Index() {
         </div>
       </section> */}
 
-<section id='centerimg'>
+{/* <section id='centerimg'>
         <img src={stadium} className='img-fluid about-stadium' />
-      </section>
+      </section> */}
       <div className="bg-purple-900 text-white p-10 flex justify-center">
 
       </div>

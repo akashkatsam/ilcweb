@@ -9,6 +9,7 @@ import v3 from './v321.jpg'
 import { Link } from 'react-router-dom';
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
+import tv from '../tv-icon.png'
 
 export default function Video() {
 
@@ -53,7 +54,7 @@ export default function Video() {
 <>
 
         <section id='video'>
-            <div class="title-team"><h4>ILC TV</h4>
+            <div class="title-team"><h4> <img src={tv}  className="img-fluid tvicon" />ILC TV</h4>
              <div className="nav-buttons">
                                   <button className="owl-prev-btn" onClick={goToPrev}><FaArrowLeftLong />
                                   </button>

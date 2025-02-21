@@ -5,6 +5,13 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+
+@font-face {
+  font-family: jagaur;
+  src: url('./jaguar.regular.ttf');
+}
+
+
 *{
   scroll-behavior: smooth;
 }
@@ -706,7 +713,10 @@ a {
   margin: auto;
   display: block;
 }
-
+#video .tvicon{
+  width: 45px;
+  margin-right:10px;
+}
 .title-team h4 {
   color: #fff;
   text-align: center;
@@ -827,7 +837,7 @@ a {
 }
 
 .stadium-banner{
-  background-color: #37193d;
+  background-color:#37193d;
   padding: 30px 0px 0px 0px;
 }
 
@@ -1078,13 +1088,13 @@ a {
 }
 
 .teamslogohome img {
-  width: 114px;
+  width: 124px;
   margin: auto;
   display: block;
 }
 
 #fixture {
-  background-color: #2E1631;
+  background-color: #37193d;
   background-image: url('./fixturebg.png');
   background-size: cover;
   background-size: cover;
@@ -1106,7 +1116,7 @@ a {
 .titlefixture h4 {
   color: #fff;
   font-family: 'poppins';
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   margin-top: 8px;
   font-weight: 400;
@@ -1149,7 +1159,7 @@ a {
 }
 
 .leftfixture img {
-  width: 80px !important;
+  width: 99px !important;
   margin: auto;
   display: block;
   font-weight: 300;
@@ -1346,7 +1356,7 @@ a {
 .footerfixture p {
   color: #fff;
   font-family: 'Poppins';
-  font-size: 12px;
+  font-size: 13px;
 }
 
 header .container-fluid {
@@ -1367,7 +1377,7 @@ header .container-fluid {
   }
 
   #video{
-    padding:25px 15px 25px 15px!important;
+    padding:10px 15px 25px 15px!important;
   }
 
   .partnertitle h4, .partnertitle h5 {
@@ -1576,7 +1586,7 @@ header .container-fluid {
   .carousel-caption h4 {
     width: 100%;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 24px;
 
   }
   .owl-prev-btn, .owl-next-btn {
@@ -1601,8 +1611,8 @@ header .container-fluid {
   }
 
   .readmore {
-    padding: 8px 11px;
-    font-size: 11px;
+    padding: 6px 10px;
+    font-size: 8px;
     margin-top: 10px;
   }
 
@@ -1788,7 +1798,7 @@ header .container-fluid {
     padding: 20px 10px;
   }
   .banner-buttons {
-    top: 43%!important;
+    top: 45%!important;
   }
 
   .newarticles
