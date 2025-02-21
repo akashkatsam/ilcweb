@@ -3,7 +3,7 @@ import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import bannermob from "./bannermob.jpg";
-import banener from "./ILC website banner ed1.jpg";
+import banener from "./Bannernew.jpg";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import banner2 from './front-banner (2).jpg'
 export default function Banner() {
