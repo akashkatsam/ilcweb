@@ -86,12 +86,12 @@ export default function Header() {
                                     
                                 </li>
 
-                                <li>
+                                {/* <li>
                                     
                                     <Link to="/media" onClick={closeMenu}>
                                     Fixture
                                     </Link>
-                                </li>
+                                </li> */}
 
                                 <li >
                                 <Link to="/team" onClick={closeMenu}>

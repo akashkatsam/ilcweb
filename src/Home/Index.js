@@ -65,7 +65,7 @@ export default function Index() {
       </section>
       <section className='stadium-banner'>
        
-        <img src="https://ilc-20.vercel.app/static/media/centernew.097ccf1e66d418dce9cd.png" className='img-fluid stadium-image' />
+        <img src={stadium} className='img-fluid stadium-image' />
       </section>
 
     
