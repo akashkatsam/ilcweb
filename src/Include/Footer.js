@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 
-import logo1 from '../About/Teamilc/1.png'
-import logo2 from '../About/Teamilc/2.png'
-import logo4 from '../About/Teamilc/4.png'
-import logo5 from '../About/Teamilc/5.png'
-import logo6 from '../About/Teamilc/6.png'
-import logo3 from '../About/Teamilc/3.png'
+import logo1 from '../Team/1.png'
+import logo2 from '../Team/2.png'
+import logo4 from '../Team/4.png'
+import logo5 from '../Team/5.png'
+import logo6 from '../Team/6.png'
+import logo3 from '../Team/3.png'
 import logosony from './sonylogo.png'
 import v3 from './3.mp4'
 import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
