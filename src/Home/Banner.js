@@ -125,7 +125,7 @@ export default function Banner() {
             padding: 10px 15px;
             cursor: pointer;
             font-size: 20px;
-            border-radius: 5px;
+            border-radius: 10px;
           }
 
           .owl-prev-btn:hover, .owl-next-btn:hover {
