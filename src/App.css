@@ -13,9 +13,10 @@ p {
 }
 
 .stump {
-  margin-left: -62px;
-  margin-top: -23px;
+  margin-left: -73px;
+  margin-top: -25px;
   position: absolute;
+  width: 81px;
 
 }
 
@@ -175,7 +176,7 @@ header {
 }
 
 #teampage img {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border-radius: 10px;
 }
 
@@ -267,7 +268,7 @@ header {
 }
 
 .carousel-caption {
-  bottom: 13%;
+  bottom: 4%;
 }
 
 .carousel-caption h4 {
@@ -275,6 +276,7 @@ header {
   font-family: "Bebas Neue", serif;
   text-align: left;
   width: 70%;
+  letter-spacing: 0.8px;
   line-height: 50px;
 
 }
@@ -475,7 +477,7 @@ a {
 
 .newarticles {
   background-color: #37193d;
-  padding: 30px 0px 30px 30px;
+  padding: 40px 0px 0px 30px;
 }
 
 .news-caption {
@@ -940,7 +942,7 @@ a {
     text-align: left;
   }
   .banner-buttons{
-    top: 44%!important;
+    top: 54%!important;
   }
  
 }
@@ -1083,6 +1085,8 @@ a {
 
 #fixture {
   background-color: #2E1631;
+  background-image: url('./fixturebg.png');
+  background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0px 40px 30px;
@@ -1239,7 +1243,7 @@ a {
 
 #video {
   background-color: #37193d;
-  padding: 60px 0px 40px 30px;
+  padding:40px 0px 40px 30px;
 }
 
 .image-container {
@@ -1311,7 +1315,7 @@ a {
 .partnertitle h5 {
   text-align: center;
   font-family: 'Bebas Neue';
-  font-size: 35px;
+  font-size: 40px;
   margin-bottom: 40px;
   color: #47254D;
   margin-top: 40px;
@@ -1327,7 +1331,7 @@ a {
 .partentitle h3 {
   font-family: 'Bebas Neue';
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 32px;
   margin-bottom: 15px;
   color: #2E1631;
   text-align: center;
