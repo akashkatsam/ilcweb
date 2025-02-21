@@ -39,11 +39,9 @@ export default function Banner() {
    
 
   ];
-
   const handlePrev = () => {
     setIndex(index === 0 ? slides.length - 1 : index - 1);
   };
-
   const handleNext = () => {
     setIndex(index === slides.length - 1 ? 0 : index + 1);
   };
