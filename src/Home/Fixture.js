@@ -1,25 +1,27 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useCallback } from "react";
 import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
-import stump from "../stump.svg";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+import stump from "../stump.svg";
 
 export default function Fixture() {
   const [fixtures, setFixtures] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const carouselRef = useRef(null);
 
   useEffect(() => {
-    // Fetch fixture data from API
     const fetchFixtures = async () => {
       try {
         const response = await fetch(
           "https://ilc-dev.katsammedia.com/api/resource/ILC%20Fixture?fields=[%22*%22]"
         );
-        const data = await response.json();
 
+        if (!response.ok) {
+          throw new Error(`HTTP Error! Status: ${response.status}`);
+        }
+
+        const data = await response.json();
         if (data && data.data) {
-          // Sort fixtures by date
           const sortedFixtures = data.data.sort(
             (a, b) => new Date(a.date) - new Date(b.date)
           );
@@ -27,41 +29,41 @@ export default function Fixture() {
         }
       } catch (error) {
         console.error("Error fetching fixtures:", error);
+        setError(error.message);
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchFixtures();
   }, []);
 
-  const convertTo12HourFormat = (time) => {
-    if (!time) return "N/A"; // Handle missing time
-    const [hour, minute] = time.split(":");
-    let hours = parseInt(hour, 10);
-    const ampm = hours >= 12 ? "PM" : "AM";
-    hours = hours % 12 || 12; // Convert 0 to 12 for AM times
-    return `${hours}:${minute} ${ampm}`;
-  };
-
   const formatDateTime = (date, time) => {
-    if (!date || !time) return "N/A"; // Handle missing values
-  
-    // Convert time to 12-hour format
+    if (!date || !time) return "N/A";
+
     const [hour, minute] = time.split(":");
     let hours = parseInt(hour, 10);
     const ampm = hours >= 12 ? "PM" : "AM";
-    hours = hours % 12 || 12; // Convert 0 to 12 for AM times
+    hours = hours % 12 || 12;
     const formattedTime = `${hours}:${minute} ${ampm}`;
-  
-    // Convert date to short day format (e.g., Mon, Tue, Wed)
-    const dayShort = new Date(date).toLocaleDateString("en-US", { weekday: "short" });
-  
+    const dayShort = new Date(date).toLocaleDateString("en-US", {
+      weekday: "short",
+    });
+
     return `${dayShort}, ${formattedTime}`;
   };
-  
-  
 
-  const goToPrev = () => carouselRef.current?.prev();
-  const goToNext = () => carouselRef.current?.next();
+  const goToPrev = useCallback(() => {
+    if (carouselRef.current) {
+      carouselRef.current.prev();
+    }
+  }, []);
+
+  const goToNext = useCallback(() => {
+    if (carouselRef.current) {
+      carouselRef.current.next();
+    }
+  }, []);
 
   const options = {
     loop: true,
@@ -97,40 +99,49 @@ export default function Fixture() {
       </div>
 
       <div className="row">
-        <OwlCarousel ref={carouselRef} {...options} className="owl-theme">
-          {fixtures.length > 0 ? (
-            fixtures.map((match, index) => (
-              <div key={index} className="item fixturecard">
+        {loading ? (
+          <p>Loading fixtures...</p>
+        ) : error ? (
+          <p style={{ color: "red" }}>Error: {error}</p>
+        ) : fixtures.length > 0 ? (
+          <OwlCarousel ref={carouselRef} options={options} className="owl-theme">
+            {fixtures.map((match, index) => (
+              <div key={match.id || index} className="item fixturecard">
                 <div className="titlefixture">
                   <h4>Greater Noida Cricket Stadium</h4>
                   <h4>Match {match.position}</h4>
-
                 </div>
                 <div className="centerfixturecard">
                   <div className="row">
                     <div className="col-md-4 col-4">
                       <div className="leftfixture">
-                        <img 
-                         src={`https://ilc-dev.katsammedia.com/${match.team_a_logo}`} 
-
-                         className="img-fluid" alt={match.team_a_name} />
+                        <img
+                          src={`https://ilc-dev.katsammedia.com/${match.team_a_logo}`}
+                          className="img-fluid"
+                          alt={match.team_a_name || "Team A"}
+                          onError={(e) => (e.target.src = "/fallback-team.png")}
+                        />
                         <div className="score">
                           <h5>{match.team_a_score ?? "XX"}</h5>
                         </div>
                       </div>
                     </div>
+
                     <div className="col-md-4 col-4 align-self-start p-0">
                       <div className="match">
                         <button>Match Centre</button>
                       </div>
                       <h4 className="vs">VS</h4>
                     </div>
+
                     <div className="col-md-4 col-4">
                       <div className="leftfixture">
                         <img
-                          src={`https://ilc-dev.katsammedia.com/${match.team_b_logo}`} 
- 
-                        className="img-fluid" alt={match.team_b_name} />
+                          src={`https://ilc-dev.katsammedia.com/${match.team_b_logo}`}
+                          className="img-fluid"
+                          alt={match.team_b_name || "Team B"}
+                          onError={(e) => (e.target.src = "/fallback-team.png")}
+                        />
                         <div className="score">
                           <h5>{match.team_b_score ?? "XX"}</h5>
                         </div>
@@ -142,23 +153,27 @@ export default function Fixture() {
                 <div className="footerfixture">
                   <div className="row">
                     <div className="col-md-7 col-7">
-                    <p className="leftpara">Time: {formatDateTime(match.date, match.time)}</p>
+                      <p className="leftpara">
+                        Time: {formatDateTime(match.date, match.time)}
+                      </p>
                     </div>
                     <div className="col-md-5 col-5">
-                      <p className="rightpara">{new Date(match.date).toLocaleDateString("en-US", {
-                        month: "long",
-                        day: "numeric",
-                        year: "numeric",
-                      })}</p>
+                      <p className="rightpara">
+                        {new Date(match.date).toLocaleDateString("en-US", {
+                          month: "long",
+                          day: "numeric",
+                          year: "numeric",
+                        })}
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
-            ))
-          ) : (
-            <p>Loading fixtures...</p>
-          )}
-        </OwlCarousel>
+            ))}
+          </OwlCarousel>
+        ) : (
+          <p>No fixtures available.</p>
+        )}
       </div>
     </section>
   );
