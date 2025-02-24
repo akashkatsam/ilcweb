@@ -1,5 +1,7 @@
-import React, { useEffect, useState, useRef, useCallback } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import stump from "../stump.svg";
 
@@ -10,18 +12,19 @@ export default function Fixture() {
   const carouselRef = useRef(null);
 
   useEffect(() => {
+    // Fetch fixture data from API
     const fetchFixtures = async () => {
       try {
         const response = await fetch(
           "https://ilc-dev.katsammedia.com/api/resource/ILC%20Fixture?fields=[%22*%22]"
         );
-
         if (!response.ok) {
           throw new Error(`HTTP Error! Status: ${response.status}`);
         }
 
         const data = await response.json();
         if (data && data.data) {
+          // Sort fixtures by date
           const sortedFixtures = data.data.sort(
             (a, b) => new Date(a.date) - new Date(b.date)
           );
@@ -39,13 +42,16 @@ export default function Fixture() {
   }, []);
 
   const formatDateTime = (date, time) => {
-    if (!date || !time) return "N/A";
+    if (!date || !time) return "N/A"; // Handle missing values
 
+    // Convert time to 12-hour format
     const [hour, minute] = time.split(":");
     let hours = parseInt(hour, 10);
     const ampm = hours >= 12 ? "PM" : "AM";
-    hours = hours % 12 || 12;
+    hours = hours % 12 || 12; // Convert 0 to 12 for AM times
     const formattedTime = `${hours}:${minute} ${ampm}`;
+
+    // Convert date to short day format (e.g., Mon, Tue, Wed)
     const dayShort = new Date(date).toLocaleDateString("en-US", {
       weekday: "short",
     });
@@ -53,17 +59,8 @@ export default function Fixture() {
     return `${dayShort}, ${formattedTime}`;
   };
 
-  const goToPrev = useCallback(() => {
-    if (carouselRef.current) {
-      carouselRef.current.prev();
-    }
-  }, []);
-
-  const goToNext = useCallback(() => {
-    if (carouselRef.current) {
-      carouselRef.current.next();
-    }
-  }, []);
+  const goToPrev = () => carouselRef.current?.prev();
+  const goToNext = () => carouselRef.current?.next();
 
   const options = {
     loop: true,
@@ -104,7 +101,7 @@ export default function Fixture() {
         ) : error ? (
           <p style={{ color: "red" }}>Error: {error}</p>
         ) : fixtures.length > 0 ? (
-          <OwlCarousel ref={carouselRef} options={options} className="owl-theme">
+          <OwlCarousel ref={carouselRef} {...options} className="owl-theme">
             {fixtures.map((match, index) => (
               <div key={match.id || index} className="item fixturecard">
                 <div className="titlefixture">
@@ -113,6 +110,7 @@ export default function Fixture() {
                 </div>
                 <div className="centerfixturecard">
                   <div className="row">
+                    {/* Team A */}
                     <div className="col-md-4 col-4">
                       <div className="leftfixture">
                         <img
@@ -127,6 +125,7 @@ export default function Fixture() {
                       </div>
                     </div>
 
+                    {/* Match Center */}
                     <div className="col-md-4 col-4 align-self-start p-0">
                       <div className="match">
                         <button>Match Centre</button>
@@ -134,6 +133,7 @@ export default function Fixture() {
                       <h4 className="vs">VS</h4>
                     </div>
 
+                    {/* Team B */}
                     <div className="col-md-4 col-4">
                       <div className="leftfixture">
                         <img
@@ -150,6 +150,7 @@ export default function Fixture() {
                   </div>
                 </div>
 
+                {/* Match Date and Time */}
                 <div className="footerfixture">
                   <div className="row">
                     <div className="col-md-7 col-7">
