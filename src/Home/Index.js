@@ -21,6 +21,8 @@ import Video from './Video';
 import Partner from './Partner';
 import stadium from './stadiumnew.png'
 import stats from '../About/stats (1).jpg'
+import Standing from './Standing';
+import Teamslider from './Teamslider';
 
 
 export default function Index() {
@@ -29,10 +31,14 @@ export default function Index() {
       <Banner />
       <Fixture />
 
+      {/* <Standing/> */}
+
+      <Teamslider/>
+
       {/* <section className='stadium-banner'>
         <img src={stats} className='img-fluid' />
       </section> */}
-      <section id="teamshome" className='arrowbg'>
+      {/* <section id="teamshome" className='arrowbg'>
         <div className="titleweb">
           <h2>
             <img src={stump} className="img-fluid stump2" alt="stump" /><span>Teams</span> 
@@ -62,7 +68,7 @@ export default function Index() {
           </div>
         </div>
 
-      </section>
+      </section> */}
       <section className='stadium-banner'>
        
         <img src={stadium} className='img-fluid stadium-image' />

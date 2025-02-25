@@ -7,6 +7,7 @@ import About from "./About/Index"
 import Gallery from "./Gallery/Gallery";
 import Media from "./Media/Media";
 import Team from "./Team/Team";
+import Blog from "./Blog/Blog";
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/photos" element={<Gallery />} />
         <Route path="/media" element={<Media />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/blog" element={<Blog />} />
 
 
 

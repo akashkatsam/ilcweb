@@ -275,9 +275,7 @@ export default function Index() {
 {/* <section id='centerimg'>
         <img src={stadium} className='img-fluid about-stadium' />
       </section> */}
-      <div className="bg-purple-900 text-white p-10 flex justify-center">
-
-      </div>
+    
     </>
   )
 }

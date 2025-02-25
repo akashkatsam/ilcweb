@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/neusharp');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   overflow-x: hidden;
   width: 100%;
@@ -20,11 +20,10 @@ p {
 }
 
 .stump {
-  margin-left: -73px;
-  margin-top: -25px;
+  margin-left: -50px;
+  margin-top: -18px;
   position: absolute;
-  width: 81px;
-
+  width: 58px;
 }
 
 .stump2 {
@@ -1086,7 +1085,18 @@ a {
   background-color: #381A3D;
   padding: 60px 140px 60px 140px;
 }
+#teamslider{
+  background-color: #381A3D;
+  padding: 70px 0px 60px 25px; 
+}
+.teamcarousel img{
+border-radius: 10px;
+border:1px solid #b48542;
+}
 
+.centernavitem .active{
+  color: #e2c15e;
+}
 .teamslogohome img {
   width: 124px;
   margin: auto;
@@ -1135,7 +1145,7 @@ a {
 }
 
 .score h5 {
-  margin-top: 20px;
+  margin-top: 10px;
   color: #fff;
   font-family: 'Bebas Neue';
   font-size: 22px;
@@ -1174,7 +1184,7 @@ a {
   font-family: 'Poppins';
   border-radius: 20px;
   text-align: center;
-  margin: 10px auto 0px auto;
+  margin: 1px auto 0px auto;
   display: block;
   color: #fff;
   background: #764B05;
@@ -1259,9 +1269,9 @@ a {
 .image-container {
   position: relative;
   overflow: hidden;
-  border: 1px solid #fff;
-  border-radius: 30px;
-  height: 280px;
+  border: 1.5px solid #fff;
+  border-radius: 20px;
+  /* height: 280px; */
 }
 
 .image-container img {
@@ -1364,14 +1374,100 @@ header .container-fluid {
 }
 
 .footerfixture {
-  padding: 10px;
+  padding: 6px;
   background: #764B05;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+#blogpage{
+  padding: 30px 20px;
+  background-color: #562D5B;
+}
+#blogpage .newscard{
+  margin-bottom: 30px;
+}
+th{
+  font-family: 'Bebas Neue';
+  font-weight: 300;
+  font-size:20px;
+  border: 0px;
+  color: #fff;
+}
+td,tr{
+  border: 0px;
+  color: #fff!important;
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  font-weight: 300!important;
 
+}
+#standing{
+  padding: 40px 80px;
+  background-color: #562D5B;
+
+}
+.poppinstanding{
+  FONT-FAMILY: 'Poppins';
+  text-align: center;
+}
+#standing td img{
+  margin: auto;
+  display: block;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  background-color: #4B2651;
+}
+
+.custom-header th{
+  color: #562D5B;
+}
+.form-loss, .form-toss {
+  border-radius: 30px;
+  color: #fff;
+  font-family: poppins;
+  height: 28px;
+  left: 0;
+  line-height: 20px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  width: 28px;
+}
+.form-toss {
+  background-color: #aaaaaa80;
+}
+.tablwidth{
+  width: 10%;
+}
+th:first-of-type{
+  border-top-left-radius: 10px;
+  width: 4% !important;
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+.table-striped>tbody>tr:nth-of-type(even)>* {
+  background-color: #572F5E;
+}
 @media only screen and (max-width: 600px) {
-
+#standing{
+  padding: 20px 10px;
+}
+#table{
+  overflow-x: scroll;
+}
+td,thead{
+  white-space: nowrap;
+}
+thead{
+  font-size: 16px!important;
+}
+td{
+  font-size: 15px!important;
+}
+#teamslider{
+  padding: 25px 0px 25px 15px!important;
+}
   .owl-item{
     width: 380px;
   }
@@ -1602,7 +1698,7 @@ header .container-fluid {
 
   .titleweb h2 {
     margin-bottom: 20px !important;
-    font-size: 26px !important;
+    font-size: 24px !important;
     letter-spacing: 2px;
   }
 

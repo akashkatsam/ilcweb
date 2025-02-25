@@ -93,7 +93,7 @@ export default function Video() {
 
 
 
-                <div class="image-container">
+                {/* <div class="image-container">
                     <img src={v3} alt="Example Image" />
                     <div class="overlay"></div>
 
@@ -108,7 +108,7 @@ export default function Video() {
 
 
 
-                </div>
+                </div> */}
 
             </OwlCarousel>
         </section>

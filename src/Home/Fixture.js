@@ -106,7 +106,7 @@ export default function Fixture() {
               <div key={match.id || index} className="item fixturecard">
                 <div className="titlefixture">
                   <h4>Greater Noida Cricket Stadium</h4>
-                  <h4>Match {match.position}</h4>
+                  <h4>Match</h4>
                 </div>
                 <div className="centerfixturecard">
                   <div className="row">
@@ -120,7 +120,7 @@ export default function Fixture() {
                           onError={(e) => (e.target.src = "/fallback-team.png")}
                         />
                         <div className="score">
-                          <h5>{match.team_a_score ?? "XX"}</h5>
+                        <h5>XX</h5>
                         </div>
                       </div>
                     </div>
@@ -143,7 +143,7 @@ export default function Fixture() {
                           onError={(e) => (e.target.src = "/fallback-team.png")}
                         />
                         <div className="score">
-                          <h5>{match.team_b_score ?? "XX"}</h5>
+                          <h5>XX</h5>
                         </div>
                       </div>
                     </div>
@@ -155,16 +155,18 @@ export default function Fixture() {
                   <div className="row">
                     <div className="col-md-7 col-7">
                       <p className="leftpara">
-                        Time: {formatDateTime(match.date, match.time)}
+                        Time: XX
+                         {/* {formatDateTime(match.date, match.time)} */}
                       </p>
                     </div>
                     <div className="col-md-5 col-5">
                       <p className="rightpara">
-                        {new Date(match.date).toLocaleDateString("en-US", {
+                        {/* {new Date(match.date).toLocaleDateString("en-US", {
                           month: "long",
                           day: "numeric",
                           year: "numeric",
-                        })}
+                        })} */}
+                        Date : XX
                       </p>
                     </div>
                   </div>
